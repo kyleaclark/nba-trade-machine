@@ -30,6 +30,7 @@ export default class TeamPanel extends Component {
   render() {
     return (
       <div>
+        <h4>{this.props.name}</h4>
         {this._renderTeamList()}
       </div>
     );

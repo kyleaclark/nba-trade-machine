@@ -3,18 +3,20 @@ import { bindActionCreators } from 'redux';
 import { connect } from 'react-redux';
 import { withRouter } from 'react-router-dom';
 
-import { getTeamRosters } from '../actions/teamRosters';
+import { addTradeTeam } from '../actions/trade';
+import AddTeam from '../components/AddTeam/AddTeam';
 import TeamPanel from '../components/TeamPanel/TeamPanel';
-//import * as TEAM_NAMES from '../constants/teamNames';
 
 function mapStateToProps(state) {
+  console.log('mapStateToProps : ', state);
+
   return {
-    teamRosters: state.teamRosters
+    trade: state.trade
   };
 }
 
 function mapDispatchToProps(dispatch) {
-  return bindActionCreators({ getTeamRosters }, dispatch);
+  return bindActionCreators({ addTradeTeam }, dispatch);
 }
 
 class Home extends Component {
@@ -25,16 +27,30 @@ class Home extends Component {
   }
 
   componentWillMount() {
-    this.props.getTeamRosters('PhoenixSuns');
+
+  }
+
+  _onAddTeam = (teamId, teamName) => {
+    console.log('addTradeTeam : ', teamId, teamName);
+    this.props.addTradeTeam(teamId, teamName);
   }
 
   render() {
-    const roster = this.props.teamRosters.get('PhoenixSuns')
+    const teams = this.props.trade.get('teams') || [];
+
+    console.log('render teams : ', teams)
 
     return (
       <div style={{ height: '100%' }}>
         <h2>Welcome to the NBA Trade Machine</h2>
-        {roster && <TeamPanel roster={roster} />}
+        <AddTeam onAddTeam={this._onAddTeam} />
+        {teams.map((team, i) =>
+          <TeamPanel
+            key={team.name}
+            name={team.name}
+            roster={team.roster}
+          />
+        )}
       </div>
     );
   }

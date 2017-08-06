@@ -1,1 +1,2 @@
 export const GET_TEAM_ROSTERS = 'GET_TEAM_ROSTERS';
+export const ADD_TRADE_TEAM = 'ADD_TRADE_TEAM';
