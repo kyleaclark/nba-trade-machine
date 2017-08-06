@@ -91,6 +91,199 @@ export const AtlantaHawks = [{
   "tradeEligible": false
 }];
 
+export const ClevelandCavaliers = [{
+  "firstName": "LeBron",
+  "lastName": "James",
+  "position": "SF",
+  "contractSalary": 33285709,
+  "contractYears": 2,
+  "tradeEligible": true
+}, {
+  "firstName": "Kevin",
+  "lastName": "Love",
+  "position": "PF",
+  "contractSalary": 22642350,
+  "contractYears": 3,
+  "tradeEligible": true
+}, {
+  "firstName": "Kyrie",
+  "lastName": "Irving",
+  "position": "PG",
+  "contractSalary": 18868626,
+  "contractYears": 3,
+  "tradeEligible": true
+}, {
+  "firstName": "Tristan",
+  "lastName": "Thompson",
+  "position": "C",
+  "contractSalary": 16400000,
+  "contractYears": 3,
+  "tradeEligible": true
+}, {
+  "firstName": "JR",
+  "lastName": "Smith",
+  "position": "SG",
+  "contractSalary": 13760000,
+  "contractYears": 3,
+  "tradeEligible": true
+}, {
+  "firstName": "Iman",
+  "lastName": "Shumphert",
+  "position": "SG",
+  "contractSalary": 10337079,
+  "contractYears": 2,
+  "tradeEligible": true
+}, {
+  "firstName": "Channing",
+  "lastName": "Frye",
+  "position": "C",
+  "contractSalary": 7420912,
+  "contractYears": 1,
+  "tradeEligible": true
+}, {
+  "firstName": "Kyle",
+  "lastName": "Korver",
+  "position": "SG",
+  "contractSalary": 7000000,
+  "contractYears": 3,
+  "tradeEligible": false
+}, {
+  "firstName": "Cedi",
+  "lastName": "Osman",
+  "position": "SF",
+  "contractSalary": 2642857,
+  "contractYears": 3,
+  "tradeEligible": false
+}, {
+  "firstName": "Richard",
+  "lastName": "Jefferson",
+  "position": "SF",
+  "contractSalary": 2500000,
+  "contractYears": 2,
+  "tradeEligible": true
+}, {
+  "firstName": "Derrick",
+  "lastName": "Rose",
+  "position": "PG",
+  "contractSalary": 1471382,
+  "contractYears": 1,
+  "tradeEligible": false
+}, {
+  "firstName": "Jeff",
+  "lastName": "Green",
+  "position": "SF",
+  "contractSalary": 1471382,
+  "contractYears": 1,
+  "tradeEligible": false
+}, {
+  "firstName": "Jose",
+  "lastName": "Calderon",
+  "position": "PG",
+  "contractSalary": 1471382,
+  "contractYears": 1,
+  "tradeEligible": true
+}, {
+  "firstName": "Edy",
+  "lastName": "Tavares",
+  "position": "C",
+  "contractSalary": 1312611,
+  "contractYears": 2,
+  "tradeEligible": true
+}, {
+  "firstName": "Kay",
+  "lastName": "Felder",
+  "position": "PG",
+  "contractSalary": 1312611,
+  "contractYears": 2,
+  "tradeEligible": true
+}];
+
+export const NewYorkKnicks = [{
+  "firstName": "Carmelo",
+  "lastName": "Anthony",
+  "position": "SF",
+  "contractSalary": 26243760,
+  "contractYears": 2,
+  "tradeEligible": true
+}, {
+  "firstName": "Joakim",
+  "lastName": "Noah",
+  "position": "C",
+  "contractSalary": 17765000,
+  "contractYears": 3,
+  "tradeEligible": true
+}, {
+  "firstName": "Tim",
+  "lastName": "Hardaway Jr.",
+  "position": "SG",
+  "contractSalary": 16500000,
+  "contractYears": 4,
+  "tradeEligible": false
+}, {
+  "firstName": "Courtney",
+  "lastName": "Lee",
+  "position": "SG",
+  "contractSalary": 11747890,
+  "contractYears": 3,
+  "tradeEligible": true
+}, {
+  "firstName": "Lance",
+  "lastName": "Thomas",
+  "position": "SF",
+  "contractSalary": 6655325,
+  "contractYears": 3,
+  "tradeEligible": true
+}, {
+  "firstName": "Kristpas",
+  "lastName": "Porzingis",
+  "position": "PF",
+  "contractSalary": 4503600,
+  "contractYears": 2,
+  "tradeEligible": true
+}, {
+  "firstName": "Kyle",
+  "lastName": "O'Quinn",
+  "position": "C",
+  "contractSalary": 4087500,
+  "contractYears": 2,
+  "tradeEligible": true
+}, {
+  "firstName": "Frank",
+  "lastName": "Ntilikina",
+  "position": "PG",
+  "contractSalary": 3501120,
+  "contractYears": 4,
+  "tradeEligible": true
+}, {
+  "firstName": "Mindaugas",
+  "lastName": "Kuzminskas",
+  "position": "PF",
+  "contractSalary": 3025035,
+  "contractYears": 1,
+  "tradeEligible": true
+}, {
+  "firstName": "Wily",
+  "lastName": "Hernangomez",
+  "position": "C",
+  "contractSalary": 1435750,
+  "contractYears": 2,
+  "tradeEligible": true
+}, {
+  "firstName": "Derrick",
+  "lastName": "Rose",
+  "position": "PG",
+  "contractSalary": 1471382,
+  "contractYears": 1,
+  "tradeEligible": true
+}, {
+  "firstName": "Chasson",
+  "lastName": "Randle",
+  "position": "PG",
+  "contractSalary": 1312611,
+  "contractYears": 2,
+  "tradeEligible": true
+}];
+
 export const PhoenixSuns = [{
   "firstName": "Eric",
   "lastName": "Bledsoe",
@@ -188,5 +381,105 @@ export const PhoenixSuns = [{
   "position": "SG",
   "contractSalary": 815615,
   "contractYears": 4,
+  "tradeEligible": false
+}];
+
+export const SanAntonioSpurs = [{
+  "firstName": "LaMarcus",
+  "lastName": "Aldridge",
+  "position": "PF",
+  "contractSalary": 21461010,
+  "contractYears": 2,
+  "tradeEligible": true
+}, {
+  "firstName": "Kawhi",
+  "lastName": "Leonard",
+  "position": "SF",
+  "contractSalary": 18868626,
+  "contractYears": 3,
+  "tradeEligible": true
+}, {
+  "firstName": "Pau",
+  "lastName": "Gasol",
+  "position": "C",
+  "contractSalary": 16000000,
+  "contractYears": 3,
+  "tradeEligible": false
+}, {
+  "firstName": "Tony",
+  "lastName": "Parker",
+  "position": "PG",
+  "contractSalary": 15453126,
+  "contractYears": 1,
+  "tradeEligible": true
+}, {
+  "firstName": "Patty",
+  "lastName": "Mills",
+  "position": "PG",
+  "contractSalary": 11235955,
+  "contractYears": 4,
+  "tradeEligible": false
+}, {
+  "firstName": "Danny",
+  "lastName": "Green",
+  "position": "SG",
+  "contractSalary": 10000000,
+  "contractYears": 2,
+  "tradeEligible": true
+}, {
+  "firstName": "Rudy",
+  "lastName": "Gay",
+  "position": "SF",
+  "contractSalary": 8406000,
+  "contractYears": 2,
+  "tradeEligible": false
+}, {
+  "firstName": "Kyle",
+  "lastName": "Anderson",
+  "position": "SF",
+  "contractSalary": 2151704,
+  "contractYears": 1,
+  "tradeEligible": true
+}, {
+  "firstName": "Joffrey",
+  "lastName": "Lauvergne",
+  "position": "C",
+  "contractSalary": 1524305,
+  "contractYears": 2,
+  "tradeEligible": false
+}, {
+  "firstName": "Derrick",
+  "lastName": "White",
+  "position": "PG",
+  "contractSalary": 1404600,
+  "contractYears": 4,
+  "tradeEligible": true
+}, {
+  "firstName": "Dejante",
+  "lastName": "Murray",
+  "position": "PG",
+  "contractSalary": 1312611,
+  "contractYears": 3,
+  "tradeEligible": true
+}, {
+  "firstName": "Bryn",
+  "lastName": "Forbes",
+  "position": "SG",
+  "contractSalary": 1312611,
+  "contractYears": 1,
+  "tradeEligible": true
+}, {
+  "firstName": "Davis",
+  "lastName": "Bertans",
+  "position": "SF",
+  "contractSalary": 1312611,
+  "contractYears": 1,
+  "tradeEligible": true
+}, {
+  "firstName": "Brandon",
+  "lastName": "Paul",
+  "position": "SG",
+  "contractSalary": 815615,
+  "contractYears": 2,
   "tradeEligible": false
 }];
