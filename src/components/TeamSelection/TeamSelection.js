@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-import { TEAM_NAMES } from '../../constants/teamNames';
+import * as TEAMS from '../../constants/teamInfo';
 
 export default class TeamSelection extends Component {
 
@@ -20,8 +20,8 @@ export default class TeamSelection extends Component {
   _renderTeamNames() {
     let teamNames = [];
 
-    for (let key in TEAM_NAMES) {
-      let teamName = TEAM_NAMES[key];
+    for (let key in TEAMS) {
+      let teamName = TEAMS[key].name;
       teamNames.push(this._renderTeamItem(key, teamName));
     };
 

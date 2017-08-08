@@ -10,7 +10,7 @@ const PlayerCard = (props) => {
       <div className="player-container">
         <div className="player-content">
           <h5>{`${player.firstName} ${player.lastName} - ${player.position}`}</h5>
-          <p>{player.contractYears} years - ${player.contractSalary}</p>
+          <p>{player.contractYears} years - ${player.salary}</p>
         </div>
       </div>
     </div>

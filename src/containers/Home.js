@@ -104,9 +104,14 @@ class Home extends Component {
         <PlayerDragLayer snapToGrid={false} />
         {teams.map((team, i) =>
           <TeamPanel
-            key={team.name}
+            key={team.id}
+            teamId={team.id}
             name={team.name}
             roster={team.roster}
+            capRoom={team.capRoom}
+            taxRoom={team.taxRoom}
+            inboundSalary={team.inboundSalary}
+            outboundSalary={team.outboundSalary}
             moveTeam={this.moveTeam}
             movePlayer={this.movePlayer}
             startScrolling={this.startScrolling}

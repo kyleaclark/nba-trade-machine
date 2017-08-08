@@ -88,7 +88,7 @@ class PlayerCards extends Component {
   }
 
   render() {
-    const { connectDropTarget, x, players, isOver, canDrop } = this.props;
+    const { connectDropTarget, x, teamId, players, isOver, canDrop } = this.props;
     const { placeholderIndex } = this.state;
 
     let isPlaceHold = false;
@@ -127,7 +127,7 @@ class PlayerCards extends Component {
     }
 
     return connectDropTarget(
-      <div className="player-cards">
+      <div key={teamId} className="player-cards">
         {playerList}
       </div>
     );

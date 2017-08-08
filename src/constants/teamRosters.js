@@ -3,7 +3,7 @@ export const AtlantaHawks = [{
   "firstName": "Kent",
   "lastName": "Bazemore",
   "position": "SF",
-  "contractSalary": 16910113,
+  "salary": 16910113,
   "contractYears": 3,
   "tradeEligible": true
 }, {
@@ -11,7 +11,7 @@ export const AtlantaHawks = [{
   "firstName": "Dennis",
   "lastName": "Schroder",
   "position": "PG",
-  "contractSalary": 15500000,
+  "salary": 15500000,
   "contractYears": 4,
   "tradeEligible": true
 }, {
@@ -19,7 +19,7 @@ export const AtlantaHawks = [{
   "firstName": "Mason",
   "lastName": "Plumlee",
   "position": "SF",
-  "contractSalary": 12500000,
+  "salary": 12500000,
   "contractYears": 3,
   "tradeEligible": true
 }, {
@@ -27,7 +27,7 @@ export const AtlantaHawks = [{
   "firstName": "Marco",
   "lastName": "Belinelli",
   "position": "SF",
-  "contractSalary": 6060606,
+  "salary": 6060606,
   "contractYears": 1,
   "tradeEligible": true
 }, {
@@ -35,7 +35,7 @@ export const AtlantaHawks = [{
   "firstName": "Ersan",
   "lastName": "Ilyasova",
   "position": "PF",
-  "contractSalary": 6000000,
+  "salary": 6000000,
   "contractYears": 1,
   "tradeEligible": false
 }, {
@@ -43,7 +43,7 @@ export const AtlantaHawks = [{
   "firstName": "Dewayne",
   "lastName": "Dedmon",
   "position": "C",
-  "contractSalary": 6000000,
+  "salary": 6000000,
   "contractYears": 2,
   "tradeEligible": false
 }, {
@@ -51,7 +51,7 @@ export const AtlantaHawks = [{
   "firstName": "Mike",
   "lastName": "Muscala",
   "position": "PF",
-  "contractSalary": 5000000,
+  "salary": 5000000,
   "contractYears": 2,
   "tradeEligible": false
 }, {
@@ -59,7 +59,7 @@ export const AtlantaHawks = [{
   "firstName": "Malcolm",
   "lastName": "Delaney",
   "position": "G",
-  "contractSalary": 2500000,
+  "salary": 2500000,
   "contractYears": 1,
   "tradeEligible": true
 }, {
@@ -67,7 +67,7 @@ export const AtlantaHawks = [{
   "firstName": "Taruean",
   "lastName": "Prince",
   "position": "SF",
-  "contractSalary": 2422560,
+  "salary": 2422560,
   "contractYears": 3,
   "tradeEligible": true
 }, {
@@ -75,7 +75,7 @@ export const AtlantaHawks = [{
   "firstName": "John",
   "lastName": "Collins",
   "position": "PF",
-  "contractSalary": 1936920,
+  "salary": 1936920,
   "contractYears": 4,
   "tradeEligible": true
 }, {
@@ -83,7 +83,7 @@ export const AtlantaHawks = [{
   "firstName": "DeAndre'",
   "lastName": "Bembry",
   "position": "SF",
-  "contractSalary": 1567200,
+  "salary": 1567200,
   "contractYears": 3,
   "tradeEligible": true
 }, {
@@ -91,7 +91,7 @@ export const AtlantaHawks = [{
   "firstName": "Nicolas",
   "lastName": "Brussino",
   "position": "SF",
-  "contractSalary": 1312611,
+  "salary": 1312611,
   "contractYears": 2,
   "tradeEligible": false
 }, {
@@ -99,9 +99,261 @@ export const AtlantaHawks = [{
   "firstName": "Tyler",
   "lastName": "Dorsey",
   "position": "SG",
-  "contractSalary": 815615,
+  "salary": 815615,
   "contractYears": 2,
   "tradeEligible": false
+}];
+
+export const BostonCeltics = [{
+  "id": "BostonCeltics_1",
+  "firstName": "Gordon",
+  "lastName": "Hayward",
+  "position": "SF",
+  "salary": 29727900,
+  "contractYears": 4,
+  "tradeEligible": false
+}, {
+  "id": "BostonCeltics_2",
+  "firstName": "Al",
+  "lastName": "Horford",
+  "position": "C",
+  "salary": 27734406,
+  "contractYears": 3,
+  "tradeEligible": true
+}, {
+  "id": "BostonCeltics_3",
+  "firstName": "Jae",
+  "lastName": "Crowder",
+  "position": "SF",
+  "salary": 6796117,
+  "contractYears": 3,
+  "tradeEligible": true
+}, {
+  "id": "BostonCeltics_4",
+  "firstName": "Isaiah",
+  "lastName": "Thomas",
+  "position": "PG",
+  "salary": 6261395,
+  "contractYears": 1,
+  "tradeEligible": true
+}, {
+  "id": "BostonCeltics_5",
+  "firstName": "Alan",
+  "lastName": "Williams",
+  "position": "C",
+  "salary": 6000000,
+  "contractYears": 3,
+  "tradeEligible": false
+}, {
+  "id": "BostonCeltics_6",
+  "firstName": "Jayson",
+  "lastName": "Tatum",
+  "position": "SF",
+  "salary": 5645400,
+  "contractYears": 4,
+  "tradeEligible": true
+}, {
+  "id": "BostonCeltics_7",
+  "firstName": "Marcus",
+  "lastName": "Morris",
+  "position": "PF",
+  "salary": 5000000,
+  "contractYears": 2,
+  "tradeEligible": true
+}, {
+  "id": "BostonCeltics_8",
+  "firstName": "Jaylen",
+  "lastName": "Brown",
+  "position": "SF",
+  "salary": 4956480,
+  "contractYears": 3,
+  "tradeEligible": true
+}, {
+  "id": "BostonCeltics_9",
+  "firstName": "Marcus",
+  "lastName": "Smart",
+  "position": "PG",
+  "salary": 4538020,
+  "contractYears": 2,
+  "tradeEligible": true
+}, {
+  "id": "BostonCeltics_10",
+  "firstName": "Aron",
+  "lastName": "Baynes",
+  "position": "C",
+  "salary": 4238000,
+  "contractYears": 1,
+  "tradeEligible": false
+}, {
+  "id": "BostonCeltics_11",
+  "firstName": "Guerschon",
+  "lastName": "Yabusele",
+  "position": "SG",
+  "salary": 2247480,
+  "contractYears": 4,
+  "tradeEligible": false
+}, {
+  "id": "BostonCeltics_12",
+  "firstName": "Terry",
+  "lastName": "Rozier",
+  "position": "PG",
+  "salary": 1988520,
+  "contractYears": 2,
+  "tradeEligible": true
+}, {
+  "id": "BostonCeltics_14",
+  "firstName": "Ante",
+  "lastName": "Zizic",
+  "position": "PF",
+  "salary": 1645200,
+  "contractYears": 4,
+  "tradeEligible": true
+}, {
+  "id": "BostonCeltics_15",
+  "firstName": "Shane",
+  "lastName": "Larkin",
+  "position": "PG",
+  "salary": 1471382,
+  "contractYears": 1,
+  "tradeEligible": false
+}, {
+  "id": "BostonCeltics_16",
+  "firstName": "Semi",
+  "lastName": "Ojeleye",
+  "position": "PF",
+  "salary": 1291892,
+  "contractYears": 4,
+  "tradeEligible": false
+}, {
+  "id": "BostonCeltics_17",
+  "firstName": "Abdel",
+  "lastName": "Nader",
+  "position": "SF",
+  "salary": 1167333,
+  "contractYears": 4,
+  "tradeEligible": false
+}, {
+  "id": "BostonCeltics_18",
+  "firstName": "Daniel",
+  "lastName": "Theis",
+  "position": "PF",
+  "salary": 815615,
+  "contractYears": 2,
+  "tradeEligible": false
+}];
+
+export const BrooklynNets = [{
+  "id": "BrooklynNets_1",
+  "firstName": "Allen",
+  "lastName": "Crabbe",
+  "position": "SG",
+  "salary": 19332500,
+  "contractYears": 3,
+  "tradeEligible": true
+}, {
+  "id": "BrooklynNets_2",
+  "firstName": "Timofey",
+  "lastName": "Mozgov",
+  "position": "C",
+  "salary": 15280000,
+  "contractYears": 3,
+  "tradeEligible": true
+}, {
+  "id": "BrooklynNets_3",
+  "firstName": "Demarre",
+  "lastName": "Carroll",
+  "position": "SF",
+  "salary": 14800000,
+  "contractYears": 2,
+  "tradeEligible": true
+}, {
+  "id": "BrooklynNets_4",
+  "firstName": "Jeremy",
+  "lastName": "Lin",
+  "position": "PG",
+  "salary": 12000000,
+  "contractYears": 2,
+  "tradeEligible": true
+}, {
+  "id": "BrooklynNets_5",
+  "firstName": "Trevor",
+  "lastName": "Booker",
+  "position": "PF",
+  "salary": 9125000,
+  "contractYears": 1,
+  "tradeEligible": true
+}, {
+  "id": "BrooklynNets_6",
+  "firstName": "D'Angelo",
+  "lastName": "Russell",
+  "position": "PG",
+  "salary": 5562360,
+  "contractYears": 2,
+  "tradeEligible": true
+}, {
+  "id": "BrooklynNets_7",
+  "firstName": "Jarrett",
+  "lastName": "Allen",
+  "position": "C",
+  "salary": 1713720,
+  "contractYears": 4,
+  "tradeEligible": false
+}, {
+  "id": "BrooklynNets_8",
+  "firstName": "Quincy",
+  "lastName": "Ancy",
+  "position": "SF",
+  "salary": 1709538,
+  "contractYears": 1,
+  "tradeEligible": true
+}, {
+  "id": "BrooklynNets_9",
+  "firstName": "Caris",
+  "lastName": "LeVert",
+  "position": "SG",
+  "salary": 1632480,
+  "contractYears": 3,
+  "tradeEligible": true
+}, {
+  "id": "BrooklynNets_10",
+  "firstName": "Sean",
+  "lastName": "Kilpatrick",
+  "position": "SG",
+  "salary": 1524305,
+  "contractYears": 1,
+  "tradeEligible": true
+}, {
+  "id": "BrooklynNets_11",
+  "firstName": "Joe",
+  "lastName": "Harris",
+  "position": "SG",
+  "salary": 1524305,
+  "contractYears": 1,
+  "tradeEligible": true
+}, {
+  "id": "BrooklynNets_12",
+  "firstName": "Spencer",
+  "lastName": "Dinwiddle",
+  "position": "PG",
+  "salary": 1524305,
+  "contractYears": 2,
+  "tradeEligible": true
+}, {
+  "id": "BrooklynNets_14",
+  "firstName": "Rondae",
+  "lastName": "Hollis-Jefferson",
+  "position": "SG",
+  "salary": 1471382,
+  "contractYears": 2,
+  "tradeEligible": true
+}, {
+  "id": "BrooklynNets_15",
+  "firstName": "Isaiah",
+  "lastName": "Whitehead",
+  "position": "SG",
+  "salary": 1312611,
+  "contractYears": 3,
+  "tradeEligible": true
 }];
 
 export const ClevelandCavaliers = [{
@@ -109,7 +361,7 @@ export const ClevelandCavaliers = [{
   "firstName": "LeBron",
   "lastName": "James",
   "position": "SF",
-  "contractSalary": 33285709,
+  "salary": 33285709,
   "contractYears": 2,
   "tradeEligible": true
 }, {
@@ -117,7 +369,7 @@ export const ClevelandCavaliers = [{
   "firstName": "Kevin",
   "lastName": "Love",
   "position": "PF",
-  "contractSalary": 22642350,
+  "salary": 22642350,
   "contractYears": 3,
   "tradeEligible": true
 }, {
@@ -125,7 +377,7 @@ export const ClevelandCavaliers = [{
   "firstName": "Kyrie",
   "lastName": "Irving",
   "position": "PG",
-  "contractSalary": 18868626,
+  "salary": 18868626,
   "contractYears": 3,
   "tradeEligible": true
 }, {
@@ -133,7 +385,7 @@ export const ClevelandCavaliers = [{
   "firstName": "Tristan",
   "lastName": "Thompson",
   "position": "C",
-  "contractSalary": 16400000,
+  "salary": 16400000,
   "contractYears": 3,
   "tradeEligible": true
 }, {
@@ -141,7 +393,7 @@ export const ClevelandCavaliers = [{
   "firstName": "JR",
   "lastName": "Smith",
   "position": "SG",
-  "contractSalary": 13760000,
+  "salary": 13760000,
   "contractYears": 3,
   "tradeEligible": true
 }, {
@@ -149,7 +401,7 @@ export const ClevelandCavaliers = [{
   "firstName": "Iman",
   "lastName": "Shumphert",
   "position": "SG",
-  "contractSalary": 10337079,
+  "salary": 10337079,
   "contractYears": 2,
   "tradeEligible": true
 }, {
@@ -157,7 +409,7 @@ export const ClevelandCavaliers = [{
   "firstName": "Channing",
   "lastName": "Frye",
   "position": "C",
-  "contractSalary": 7420912,
+  "salary": 7420912,
   "contractYears": 1,
   "tradeEligible": true
 }, {
@@ -165,7 +417,7 @@ export const ClevelandCavaliers = [{
   "firstName": "Kyle",
   "lastName": "Korver",
   "position": "SG",
-  "contractSalary": 7000000,
+  "salary": 7000000,
   "contractYears": 3,
   "tradeEligible": false
 }, {
@@ -173,7 +425,7 @@ export const ClevelandCavaliers = [{
   "firstName": "Cedi",
   "lastName": "Osman",
   "position": "SF",
-  "contractSalary": 2642857,
+  "salary": 2642857,
   "contractYears": 3,
   "tradeEligible": false
 }, {
@@ -181,7 +433,7 @@ export const ClevelandCavaliers = [{
   "firstName": "Richard",
   "lastName": "Jefferson",
   "position": "SF",
-  "contractSalary": 2500000,
+  "salary": 2500000,
   "contractYears": 2,
   "tradeEligible": true
 }, {
@@ -189,7 +441,7 @@ export const ClevelandCavaliers = [{
   "firstName": "Derrick",
   "lastName": "Rose",
   "position": "PG",
-  "contractSalary": 1471382,
+  "salary": 1471382,
   "contractYears": 1,
   "tradeEligible": false
 }, {
@@ -197,7 +449,7 @@ export const ClevelandCavaliers = [{
   "firstName": "Jeff",
   "lastName": "Green",
   "position": "SF",
-  "contractSalary": 1471382,
+  "salary": 1471382,
   "contractYears": 1,
   "tradeEligible": false
 }, {
@@ -205,7 +457,7 @@ export const ClevelandCavaliers = [{
   "firstName": "Jose",
   "lastName": "Calderon",
   "position": "PG",
-  "contractSalary": 1471382,
+  "salary": 1471382,
   "contractYears": 1,
   "tradeEligible": true
 }, {
@@ -213,7 +465,7 @@ export const ClevelandCavaliers = [{
   "firstName": "Edy",
   "lastName": "Tavares",
   "position": "C",
-  "contractSalary": 1312611,
+  "salary": 1312611,
   "contractYears": 2,
   "tradeEligible": true
 }, {
@@ -221,7 +473,7 @@ export const ClevelandCavaliers = [{
   "firstName": "Kay",
   "lastName": "Felder",
   "position": "PG",
-  "contractSalary": 1312611,
+  "salary": 1312611,
   "contractYears": 2,
   "tradeEligible": true
 }];
@@ -231,7 +483,7 @@ export const NewYorkKnicks = [{
   "firstName": "Carmelo",
   "lastName": "Anthony",
   "position": "SF",
-  "contractSalary": 26243760,
+  "salary": 26243760,
   "contractYears": 2,
   "tradeEligible": true
 }, {
@@ -239,7 +491,7 @@ export const NewYorkKnicks = [{
   "firstName": "Joakim",
   "lastName": "Noah",
   "position": "C",
-  "contractSalary": 17765000,
+  "salary": 17765000,
   "contractYears": 3,
   "tradeEligible": true
 }, {
@@ -247,7 +499,7 @@ export const NewYorkKnicks = [{
   "firstName": "Tim",
   "lastName": "Hardaway Jr.",
   "position": "SG",
-  "contractSalary": 16500000,
+  "salary": 16500000,
   "contractYears": 4,
   "tradeEligible": false
 }, {
@@ -255,7 +507,7 @@ export const NewYorkKnicks = [{
   "firstName": "Courtney",
   "lastName": "Lee",
   "position": "SG",
-  "contractSalary": 11747890,
+  "salary": 11747890,
   "contractYears": 3,
   "tradeEligible": true
 }, {
@@ -263,7 +515,7 @@ export const NewYorkKnicks = [{
   "firstName": "Lance",
   "lastName": "Thomas",
   "position": "SF",
-  "contractSalary": 6655325,
+  "salary": 6655325,
   "contractYears": 3,
   "tradeEligible": true
 }, {
@@ -271,7 +523,7 @@ export const NewYorkKnicks = [{
   "firstName": "Kristpas",
   "lastName": "Porzingis",
   "position": "PF",
-  "contractSalary": 4503600,
+  "salary": 4503600,
   "contractYears": 2,
   "tradeEligible": true
 }, {
@@ -279,7 +531,7 @@ export const NewYorkKnicks = [{
   "firstName": "Kyle",
   "lastName": "O'Quinn",
   "position": "C",
-  "contractSalary": 4087500,
+  "salary": 4087500,
   "contractYears": 2,
   "tradeEligible": true
 }, {
@@ -287,7 +539,7 @@ export const NewYorkKnicks = [{
   "firstName": "Frank",
   "lastName": "Ntilikina",
   "position": "PG",
-  "contractSalary": 3501120,
+  "salary": 3501120,
   "contractYears": 4,
   "tradeEligible": true
 }, {
@@ -295,7 +547,7 @@ export const NewYorkKnicks = [{
   "firstName": "Mindaugas",
   "lastName": "Kuzminskas",
   "position": "PF",
-  "contractSalary": 3025035,
+  "salary": 3025035,
   "contractYears": 1,
   "tradeEligible": true
 }, {
@@ -303,7 +555,7 @@ export const NewYorkKnicks = [{
   "firstName": "Wily",
   "lastName": "Hernangomez",
   "position": "C",
-  "contractSalary": 1435750,
+  "salary": 1435750,
   "contractYears": 2,
   "tradeEligible": true
 }, {
@@ -311,7 +563,7 @@ export const NewYorkKnicks = [{
   "firstName": "Derrick",
   "lastName": "Rose",
   "position": "PG",
-  "contractSalary": 1471382,
+  "salary": 1471382,
   "contractYears": 1,
   "tradeEligible": true
 }, {
@@ -319,7 +571,7 @@ export const NewYorkKnicks = [{
   "firstName": "Chasson",
   "lastName": "Randle",
   "position": "PG",
-  "contractSalary": 1312611,
+  "salary": 1312611,
   "contractYears": 2,
   "tradeEligible": true
 }];
@@ -329,7 +581,7 @@ export const PhoenixSuns = [{
   "firstName": "Eric",
   "lastName": "Bledsoe",
   "position": "PG",
-  "contractSalary": 14500000,
+  "salary": 14500000,
   "contractYears": 2,
   "tradeEligible": true
 }, {
@@ -337,7 +589,7 @@ export const PhoenixSuns = [{
   "firstName": "Brandon",
   "lastName": "Knight",
   "position": "PG",
-  "contractSalary": 13618750,
+  "salary": 13618750,
   "contractYears": 3,
   "tradeEligible": true
 }, {
@@ -345,7 +597,7 @@ export const PhoenixSuns = [{
   "firstName": "Tyson",
   "lastName": "Chandler",
   "position": "C",
-  "contractSalary": 13000000,
+  "salary": 13000000,
   "contractYears": 2,
   "tradeEligible": true
 }, {
@@ -353,7 +605,7 @@ export const PhoenixSuns = [{
   "firstName": "Jared",
   "lastName": "Dudley",
   "position": "SF",
-  "contractSalary": 10000000,
+  "salary": 10000000,
   "contractYears": 2,
   "tradeEligible": true
 }, {
@@ -361,7 +613,7 @@ export const PhoenixSuns = [{
   "firstName": "Alan",
   "lastName": "Williams",
   "position": "C",
-  "contractSalary": 6000000,
+  "salary": 6000000,
   "contractYears": 3,
   "tradeEligible": false
 }, {
@@ -369,7 +621,7 @@ export const PhoenixSuns = [{
   "firstName": "Josh",
   "lastName": "Jackson",
   "position": "SF",
-  "contractSalary": 5090040,
+  "salary": 5090040,
   "contractYears": 4,
   "tradeEligible": true
 }, {
@@ -377,7 +629,7 @@ export const PhoenixSuns = [{
   "firstName": "Dragan",
   "lastName": "Bender",
   "position": "PF",
-  "contractSalary": 4468800,
+  "salary": 4468800,
   "contractYears": 3,
   "tradeEligible": true
 }, {
@@ -385,7 +637,7 @@ export const PhoenixSuns = [{
   "firstName": "TJ",
   "lastName": "Warren",
   "position": "SF",
-  "contractSalary": 3152931,
+  "salary": 3152931,
   "contractYears": 1,
   "tradeEligible": true
 }, {
@@ -393,7 +645,7 @@ export const PhoenixSuns = [{
   "firstName": "Marquese",
   "lastName": "Chriss",
   "position": "PF",
-  "contractSalary": 3073800,
+  "salary": 3073800,
   "contractYears": 3,
   "tradeEligible": true
 }, {
@@ -401,7 +653,7 @@ export const PhoenixSuns = [{
   "firstName": "Devin",
   "lastName": "Booker",
   "position": "SG",
-  "contractSalary": 2319360,
+  "salary": 2319360,
   "contractYears": 2,
   "tradeEligible": true
 }, {
@@ -409,7 +661,7 @@ export const PhoenixSuns = [{
   "firstName": "Elijah",
   "lastName": "Millsap",
   "position": "SG",
-  "contractSalary": 1524305,
+  "salary": 1524305,
   "contractYears": 1,
   "tradeEligible": true
 }, {
@@ -417,7 +669,7 @@ export const PhoenixSuns = [{
   "firstName": "Tyler",
   "lastName": "Ulis",
   "position": "PG",
-  "contractSalary": 1312611,
+  "salary": 1312611,
   "contractYears": 3,
   "tradeEligible": false
 }, {
@@ -425,7 +677,7 @@ export const PhoenixSuns = [{
   "firstName": "Derrick",
   "lastName": "Jones Jr.",
   "position": "SF",
-  "contractSalary": 1312611,
+  "salary": 1312611,
   "contractYears": 3,
   "tradeEligible": false
 }, {
@@ -433,7 +685,7 @@ export const PhoenixSuns = [{
   "firstName": "Davon",
   "lastName": "Reed",
   "position": "SG",
-  "contractSalary": 815615,
+  "salary": 815615,
   "contractYears": 4,
   "tradeEligible": false
 }];
@@ -443,7 +695,7 @@ export const SanAntonioSpurs = [{
   "firstName": "LaMarcus",
   "lastName": "Aldridge",
   "position": "PF",
-  "contractSalary": 21461010,
+  "salary": 21461010,
   "contractYears": 2,
   "tradeEligible": true
 }, {
@@ -451,7 +703,7 @@ export const SanAntonioSpurs = [{
   "firstName": "Kawhi",
   "lastName": "Leonard",
   "position": "SF",
-  "contractSalary": 18868626,
+  "salary": 18868626,
   "contractYears": 3,
   "tradeEligible": true
 }, {
@@ -459,7 +711,7 @@ export const SanAntonioSpurs = [{
   "firstName": "Pau",
   "lastName": "Gasol",
   "position": "C",
-  "contractSalary": 16000000,
+  "salary": 16000000,
   "contractYears": 3,
   "tradeEligible": false
 }, {
@@ -467,7 +719,7 @@ export const SanAntonioSpurs = [{
   "firstName": "Tony",
   "lastName": "Parker",
   "position": "PG",
-  "contractSalary": 15453126,
+  "salary": 15453126,
   "contractYears": 1,
   "tradeEligible": true
 }, {
@@ -475,7 +727,7 @@ export const SanAntonioSpurs = [{
   "firstName": "Patty",
   "lastName": "Mills",
   "position": "PG",
-  "contractSalary": 11235955,
+  "salary": 11235955,
   "contractYears": 4,
   "tradeEligible": false
 }, {
@@ -483,7 +735,7 @@ export const SanAntonioSpurs = [{
   "firstName": "Danny",
   "lastName": "Green",
   "position": "SG",
-  "contractSalary": 10000000,
+  "salary": 10000000,
   "contractYears": 2,
   "tradeEligible": true
 }, {
@@ -491,7 +743,7 @@ export const SanAntonioSpurs = [{
   "firstName": "Rudy",
   "lastName": "Gay",
   "position": "SF",
-  "contractSalary": 8406000,
+  "salary": 8406000,
   "contractYears": 2,
   "tradeEligible": false
 }, {
@@ -499,7 +751,7 @@ export const SanAntonioSpurs = [{
   "firstName": "Kyle",
   "lastName": "Anderson",
   "position": "SF",
-  "contractSalary": 2151704,
+  "salary": 2151704,
   "contractYears": 1,
   "tradeEligible": true
 }, {
@@ -507,7 +759,7 @@ export const SanAntonioSpurs = [{
   "firstName": "Joffrey",
   "lastName": "Lauvergne",
   "position": "C",
-  "contractSalary": 1524305,
+  "salary": 1524305,
   "contractYears": 2,
   "tradeEligible": false
 }, {
@@ -515,7 +767,7 @@ export const SanAntonioSpurs = [{
   "firstName": "Derrick",
   "lastName": "White",
   "position": "PG",
-  "contractSalary": 1404600,
+  "salary": 1404600,
   "contractYears": 4,
   "tradeEligible": true
 }, {
@@ -523,7 +775,7 @@ export const SanAntonioSpurs = [{
   "firstName": "Dejante",
   "lastName": "Murray",
   "position": "PG",
-  "contractSalary": 1312611,
+  "salary": 1312611,
   "contractYears": 3,
   "tradeEligible": true
 }, {
@@ -531,7 +783,7 @@ export const SanAntonioSpurs = [{
   "firstName": "Bryn",
   "lastName": "Forbes",
   "position": "SG",
-  "contractSalary": 1312611,
+  "salary": 1312611,
   "contractYears": 1,
   "tradeEligible": true
 }, {
@@ -539,7 +791,7 @@ export const SanAntonioSpurs = [{
   "firstName": "Davis",
   "lastName": "Bertans",
   "position": "SF",
-  "contractSalary": 1312611,
+  "salary": 1312611,
   "contractYears": 1,
   "tradeEligible": true
 }, {
@@ -547,7 +799,7 @@ export const SanAntonioSpurs = [{
   "firstName": "Brandon",
   "lastName": "Paul",
   "position": "SG",
-  "contractSalary": 815615,
+  "salary": 815615,
   "contractYears": 2,
   "tradeEligible": false
 }];

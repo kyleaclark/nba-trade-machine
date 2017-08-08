@@ -14,8 +14,14 @@ function addTradeTeam(state, action) {
   const nextTeams = [...state.teams];
   const team = {
     id: action.teamId,
-    name: action.teamName,
-    roster: action.teamRoster
+    name: action.name,
+    conference: action.conference,
+    roster: action.roster,
+    capRoom: action.capRoom,
+    taxRoom: action.taxRoom,
+    incomingTradeSalary: 0,
+    inboundSalary: 0,
+    outboundSalary: 0
   };
   nextTeams.push(team);
 
@@ -28,13 +34,28 @@ function addTradeTeam(state, action) {
 function movePlayer(state, action) {
   const nextTeams = [...state.teams];
   const { lastX, lastY, nextX, nextY } = action;
+
+  const currentTeam = nextTeams[lastX];
+  const futureTeam = nextTeams[nextX];
+  const player = currentTeam.roster[lastY];
+
   if (lastX === nextX) {
-    nextTeams[lastX].roster.splice(nextY, 0, nextTeams[lastX].roster.splice(lastY, 1)[0]);
+    currentTeam.roster.splice(nextY, 0, currentTeam.roster.splice(lastY, 1)[0]);
   } else {
     // move element to new place
-    nextTeams[nextX].roster.splice(nextY, 0, nextTeams[lastX].roster[lastY]);
+    futureTeam.roster.splice(nextY, 0, currentTeam.roster[lastY]);
     // delete element from old place
-    nextTeams[lastX].roster.splice(lastY, 1);
+    currentTeam.roster.splice(lastY, 1);
+
+    currentTeam.capRoom += player.salary;
+    currentTeam.taxRoom += player.salary;
+    currentTeam.outboundSalary += player.salary;
+    futureTeam.capRoom -= player.salary;
+    futureTeam.capRoom -= player.salary;
+    futureTeam.inboundSalary += player.salary;
+
+    nextTeams[lastX] = currentTeam;
+    nextTeams[nextX] = futureTeam;
   }
 
   return state.withMutations((ctx) => {
