@@ -56,13 +56,17 @@ export default class AddTeam extends Component {
     return (
       <div style={containerStyle}>
         <div style={divStyle}>
-          <h3 style={{textAlign: 'center'}}>Western Conference</h3>
+          <div style={{backgroundColor: '#d71e54'}}>
+            <h3 style={{textAlign: 'center'}}>Western Conference</h3>
+          </div>
           <Menu onClick={(ev) => this.props.onAddTeam(ev.key)} mode='horizontal' theme='dark'>
             {this._renderTeamNames('Western')}
           </Menu>
         </div>
         <div style={divStyle}>
-          <h3 style={{textAlign: 'center'}}>Eastern Conference</h3>
+          <div style={{backgroundColor: '#006ab7'}}>
+            <h3 style={{textAlign: 'center'}}>Eastern Conference</h3>
+          </div>
           <Menu onClick={(ev) => this.props.onAddTeam(ev.key)} mode='horizontal' theme='dark'>
             {this._renderTeamNames('Eastern')}
           </Menu>
@@ -75,7 +79,7 @@ export default class AddTeam extends Component {
     return (
       <div id="area">
         <Dropdown overlay={this._renderAddTeamOverlay()}>
-          <Button style={{ marginLeft: 8 }}>
+          <Button style={{ marginLeft: 8 }} size='large'>
             Add Team <Icon type="down" />
           </Button>
         </Dropdown>

@@ -1,7 +1,6 @@
 .player-cards {
 	overflow-y: auto;
 	height: 100%;
-	padding-bottom: 20px;
 
 	&.placeholder, &.placeholder:hover {
 		height: 161px;

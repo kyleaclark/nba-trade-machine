@@ -7,7 +7,10 @@ import './App.css';
 
 const App = () => (
   <div>
-    <main className="app">
+    <header className='header'>
+      <h1>Fake NBA Trade Machine</h1>
+    </header>
+    <main className='app'>
       <Route exact path="/" component={Home} />
     </main>
   </div>

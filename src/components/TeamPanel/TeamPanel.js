@@ -13,15 +13,18 @@ class TeamPanel extends Component {
   }
 
   render() {
-    const { teamId, roster, capRoom, taxRoom, incomingSalary, outgoingSalary, x, movePlayer, isDragging } = this.props;
+    const { teamId, roster, capRoom, taxRoom, inboundSalary, outboundSalary, x, movePlayer, isDragging } = this.props;
     const opacity = isDragging ? 0.5 : 1;
+    const teamPanelClassName = 'team-panel';
+    const teamPanelInfoClassName = 'team-panel-info ' + teamId;
 
     return (
-      <div className='team-panel' style={{ opacity }}>
-        <h4>{this.props.name}</h4>
-        <h5>Cap Room: $<FormattedNumber value={this.props.capRoom} /></h5>
-        <h5>Tax Room: $<FormattedNumber value={this.props.taxRoom} /></h5>
-        <h5>{teamId}</h5>
+      <div className={teamPanelClassName} style={{ opacity }}>
+        <div className={teamPanelInfoClassName}>
+          <h2>{this.props.name}</h2>
+          <h4>Cap Room: $<FormattedNumber value={this.props.capRoom} /></h4>
+          <h4>Tax Room: $<FormattedNumber value={this.props.taxRoom} /></h4>
+        </div>
         <PlayerCards
           movePlayer={movePlayer}
           x={x}

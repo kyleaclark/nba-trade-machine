@@ -99,7 +99,6 @@ class Home extends Component {
 
     return (
       <div style={{ height: '100%' }}>
-        <h2>Welcome to the NBA Trade Machine</h2>
         <AddTeam onAddTeam={this._onAddTeam} />
         <PlayerDragLayer snapToGrid={false} />
         {teams.map((team, i) =>
