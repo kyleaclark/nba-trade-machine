@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import { DropTarget, DragSource } from 'react-dnd';
 import { FormattedNumber } from 'react-intl';
 
 import PlayerCards from '../PlayerCard/PlayerCards';
