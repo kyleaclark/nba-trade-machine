@@ -118,7 +118,7 @@ class Home extends Component {
     const isAddTeamDisabled = numTeamsInTrade > 1 ? true : false;
 
     return (
-      <div style={{ height: '100%' }}>
+      <div>
         <AddTeam onAddTeam={this._onAddTeam} numTeamsInTrade={numTeamsInTrade} />
 
         <div style={{marginTop: '10px'}}>

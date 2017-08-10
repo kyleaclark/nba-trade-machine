@@ -64,6 +64,8 @@ function addTradeTeam(state, action) {
   return state.withMutations((ctx) => {
     ctx.set('teams', nextTeams)
        .set('numTeamsInTrade', nextTeams.length)
+       .set('tradeSuccess', false)
+       .set('tradeFailure', false);
   });
 }
 
