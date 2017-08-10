@@ -1,7 +1,7 @@
 @import '~antd/dist/antd.css';
 
 .app {
-  padding: 5px;
+  padding: 20px 5px 50px;
   overflow-y: hidden;
   text-align: center;
 }

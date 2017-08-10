@@ -4,23 +4,21 @@ import { Card } from 'antd';
 import './PlayerCard.css';
 
 const PlayerCard = (props) => {
-  const { style, player } = props;
+  const { style, player, teamId } = props;
 
-  /*
-  <div style={style} className="player" id={style ? player.id : null}>
-    <div className="player-container">
-      <div className="player-content">
-        <h5>{`${player.firstName} ${player.lastName} - ${player.position}`}</h5>
-        <p>{player.contractYears} years - ${player.salary}</p>
-      </div>
-    </div>
-  </div>
-  */
+  let cardBodyStyle = {
+    padding: '10px'
+  };
+
+  if (player.originalTeamId && player.originalTeamId !== teamId) {
+    cardBodyStyle.border = '2px solid #006ab7';
+  }
 
   return (
-    <Card id={style ? player.id : null} bodyStyle={{padding: '10px'}}>
+    <Card id={style ? player.id : null} bodyStyle={cardBodyStyle}>
       <h3>{`${player.firstName} ${player.lastName} - ${player.position}`}</h3>
       {player.contractYears} years - ${player.salary}
+      {player.originalTeamId && (<span>{player.hasBeenTraded}</span>)}
     </Card>
   );
 };

@@ -54,11 +54,11 @@ class PlayerCardComponent extends Component {
   }
 
   render() {
-    const { isDragging, connectDragSource, player } = this.props;
+    const { isDragging, connectDragSource, player, teamId } = this.props;
 
     return connectDragSource(
       <div>
-        <PlayerCard style={getStyles(isDragging)} player={player} />
+        <PlayerCard style={getStyles(isDragging)} player={player} teamId={teamId} />
       </div>
     );
   }

@@ -17,6 +17,7 @@ class TeamPanel extends Component {
     const opacity = isDragging ? 0.5 : 1;
     const teamPanelClassName = 'team-panel';
     const teamPanelInfoClassName = 'team-panel-info';
+    const netTradeSalary = outboundSalary - inboundSalary;
 
     return (
       <div className={teamPanelClassName} style={{ opacity }}>
@@ -24,8 +25,9 @@ class TeamPanel extends Component {
           <h2>{this.props.name}</h2>
         </div>
         <div className={teamPanelInfoClassName}>
-          <h4>Cap Room: $<FormattedNumber value={this.props.capRoom} /></h4>
-          <h4>Tax Room: $<FormattedNumber value={this.props.taxRoom} /></h4>
+          <h4>Cap Room: <FormattedNumber value={capRoom} /></h4>
+          <h4>Tax Line: <FormattedNumber value={taxRoom} /></h4>
+          <h4>Net Trade Salary: <FormattedNumber value={netTradeSalary} /></h4>
         </div>
         <PlayerCards
           movePlayer={movePlayer}

@@ -107,6 +107,7 @@ class PlayerCards extends Component {
         playerList.push(
           <PlayerCard x={x} y={i}
             player={player}
+            teamId={teamId}
             key={player.id}
             stopScrolling={this.props.stopScrolling}
           />

@@ -59,7 +59,7 @@ export default class AddTeam extends Component {
           <div style={{backgroundColor: '#d71e54'}}>
             <h3 style={{textAlign: 'center'}}>Western Conference</h3>
           </div>
-          <Menu onClick={(ev) => this.props.onAddTeam(ev.key)} mode='horizontal' theme='dark'>
+          <Menu onClick={(ev) => this.props.onAddTeam(ev.key)} mode='horizontal' theme='dark' multiple={true}>
             {this._renderTeamNames('Western')}
           </Menu>
         </div>
@@ -67,7 +67,7 @@ export default class AddTeam extends Component {
           <div style={{backgroundColor: '#006ab7'}}>
             <h3 style={{textAlign: 'center'}}>Eastern Conference</h3>
           </div>
-          <Menu onClick={(ev) => this.props.onAddTeam(ev.key)} mode='horizontal' theme='dark'>
+          <Menu onClick={(ev) => this.props.onAddTeam(ev.key)} mode='horizontal' theme='dark' multiple={true}>
             {this._renderTeamNames('Eastern')}
           </Menu>
         </div>
@@ -76,11 +76,18 @@ export default class AddTeam extends Component {
   }
 
   render() {
+    const { numTeamsInTrade } = this.props;
+    let isAddTeamDisabled = numTeamsInTrade > 1 ? true : false;
+
+    console.log('numTeamsInTrade : ', numTeamsInTrade, isAddTeamDisabled)
+
     return (
-      <div id="area">
+      <div>
         <Dropdown overlay={this._renderAddTeamOverlay()}>
-          <Button style={{ marginLeft: 8 }} size='large'>
-            Add Trade Partner <Icon type="down" />
+          <Button size='large'>
+            {isAddTeamDisabled
+              ? (<span>Remove Trade Partner</span>)
+              : (<span>Add Trade Partner</span>)} <Icon type="down" />
           </Button>
         </Dropdown>
       </div>

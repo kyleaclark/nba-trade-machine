@@ -12,7 +12,11 @@ import PlayerDragLayer from '../components/PlayerCard/PlayerDragLayer';
 
 function mapStateToProps(state) {
   return {
-    teams: state.trade.get('teams')
+    teams: state.trade.get('teams'),
+    numTeamsInTrade: state.trade.get('numTeamsInTrade'),
+    isDragging: state.trade.get('isDragging'),
+    tradeSuccess: state.trade.get('tradeSuccess'),
+    tradeFailure: state.trade.get('tradeFailure')
   };
 }
 
@@ -90,36 +94,62 @@ class Home extends Component {
     };
   }
 
-  _onAddTeam = (teamId, teamName) => {
-    this.props.addTradeTeam(teamId, teamName);
+  _onAddTeam = (teamId) => {
+    this.props.addTradeTeam(teamId);
+  }
+
+  _renderTradeSuccess() {
+    return (
+      <h1>Trade Success</h1>
+    )
+  }
+
+  _renderTradeFailure() {
+    return (
+      <div>
+        <h1>Trade Failure</h1>
+        <h4>{this.props.tradeFailure}</h4>
+      </div>
+    )
   }
 
   render() {
-    const teams = this.props.teams;
+    const { teams, numTeamsInTrade, tradeSuccess, tradeFailure } = this.props;
+    const isAddTeamDisabled = numTeamsInTrade > 1 ? true : false;
 
     return (
       <div style={{ height: '100%' }}>
-        <AddTeam onAddTeam={this._onAddTeam} />
-        <PlayerDragLayer snapToGrid={false} />
-        {teams.map((team, i) =>
-          <TeamPanel
-            key={team.id}
-            teamId={team.id}
-            name={team.name}
-            roster={team.roster}
-            capRoom={team.capRoom}
-            taxRoom={team.taxRoom}
-            colors={team.colors}
-            inboundSalary={team.inboundSalary}
-            outboundSalary={team.outboundSalary}
-            moveTeam={this.moveTeam}
-            movePlayer={this.movePlayer}
-            startScrolling={this.startScrolling}
-            stopScrolling={this.stopScrolling}
-            isScrolling={this.state.isScrolling}
-            x={i}
-          />
-        )}
+        <AddTeam onAddTeam={this._onAddTeam} numTeamsInTrade={numTeamsInTrade} />
+
+        <div style={{marginTop: '10px'}}>
+          {tradeSuccess && this._renderTradeSuccess()}
+          {tradeFailure && this._renderTradeFailure()}
+          {!tradeSuccess && !tradeFailure && (numTeamsInTrade > 1 ?
+            <h1>Drag and drop players to make a trade</h1> : <h1>Add two teams to make a trade</h1>)}
+        </div>
+
+        <div>
+          <PlayerDragLayer snapToGrid={false} />
+          {teams.map((team, i) =>
+            <TeamPanel
+              key={team.id}
+              teamId={team.id}
+              name={team.name}
+              roster={team.roster}
+              capRoom={team.capRoom}
+              taxRoom={team.taxRoom}
+              colors={team.colors}
+              inboundSalary={team.inboundSalary}
+              outboundSalary={team.outboundSalary}
+              moveTeam={this.moveTeam}
+              movePlayer={this.movePlayer}
+              startScrolling={this.startScrolling}
+              stopScrolling={this.stopScrolling}
+              isScrolling={this.state.isScrolling}
+              x={i}
+            />
+          )}
+        </div>
       </div>
     );
   }
