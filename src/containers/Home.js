@@ -10,6 +10,8 @@ import AddTeam from '../components/AddTeam/AddTeam';
 import TeamPanel from '../components/TeamPanel/TeamPanel';
 import PlayerDragLayer from '../components/PlayerCard/PlayerDragLayer';
 
+const nbaSplashImg = require('../assets/nba-splash.png');
+
 function mapStateToProps(state) {
   return {
     teams: state.trade.get('teams'),
@@ -38,12 +40,7 @@ class Home extends Component {
     this.state = { isScrolling: false };
   }
 
-  componentWillMount() {
-
-  }
-
   startScrolling(direction) {
-    // if (!this.state.isScrolling) {
     switch (direction) {
       case 'toLeft':
         this.setState({ isScrolling: true }, this.scrollLeft());
@@ -54,7 +51,6 @@ class Home extends Component {
       default:
         break;
     }
-    // }
   }
 
   scrollRight() {
@@ -113,19 +109,40 @@ class Home extends Component {
     )
   }
 
-  render() {
-    const { teams, numTeamsInTrade, tradeSuccess, tradeFailure } = this.props;
-    const isAddTeamDisabled = numTeamsInTrade > 1 ? true : false;
+  _renderLandingMessage() {
+    const { numTeamsInTrade } = this.props;
 
     return (
       <div>
-        <AddTeam onAddTeam={this._onAddTeam} numTeamsInTrade={numTeamsInTrade} />
+        <h1>Add two teams to make a trade</h1>
+        {!numTeamsInTrade &&
+          <div>
+            <h3>A team must not exceed their cap room,<br />or otherwise the salary exchange must be within 150%</h3>
+            <div style={{marginTop: '30px'}}>
+              <img src={nbaSplashImg} alt="Fake Trade Machine" style={{boxShadow: '8px 4px 4px rgba(150, 150, 150, 0.5)'}} />
+            </div>
+          </div>}
+      </div>
+    );
+  }
+
+  render() {
+    const { teams, numTeamsInTrade, tradeSuccess, tradeFailure } = this.props;
+
+    const tradeTeams = {};
+    teams.forEach((team) => {
+      tradeTeams[team.id] = true;
+    });
+
+    return (
+      <div>
+        <AddTeam onAddTeam={this._onAddTeam} numTeamsInTrade={numTeamsInTrade} tradeTeams={tradeTeams} />
 
         <div style={{marginTop: '10px'}}>
           {tradeSuccess && this._renderTradeSuccess()}
           {tradeFailure && this._renderTradeFailure()}
           {!tradeSuccess && !tradeFailure && (numTeamsInTrade > 1 ?
-            <h1>Drag and drop players to make a trade</h1> : <h1>Add two teams to make a trade</h1>)}
+            <h1>Drag and drop players to make a trade</h1> : this._renderLandingMessage())}
         </div>
 
         <div>

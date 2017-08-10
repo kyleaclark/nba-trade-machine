@@ -24,7 +24,7 @@ export const BrooklynNets = {
   capRoom: 5336891,
   taxRoom: 25278707,
   colors: {
-    primary: '#061922'
+    primary: '#ffffff'
   }
 };
 
@@ -234,7 +234,7 @@ export const PhoenixSuns = {
   capRoom: 6345125,
   taxRoom: 38418406,
   colors: {
-    primary: '#1D1160'
+    primary: '#E56020'
   }
 };
 

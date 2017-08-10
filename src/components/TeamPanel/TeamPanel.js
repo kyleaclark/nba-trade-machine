@@ -22,7 +22,7 @@ class TeamPanel extends Component {
     return (
       <div className={teamPanelClassName} style={{ opacity }}>
         <div style={{backgroundColor: colors.primary}}>
-          <h2>{this.props.name}</h2>
+          <h2 style={{color: '#222'}}>{this.props.name}</h2>
         </div>
         <div className={teamPanelInfoClassName}>
           <h4>Cap Room: <FormattedNumber value={capRoom} /></h4>

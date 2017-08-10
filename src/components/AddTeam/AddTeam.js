@@ -1,8 +1,7 @@
 import React, { Component } from 'react';
-import { Menu, Dropdown, Button, Icon, message } from 'antd';
+import { Menu, Dropdown, Button, Icon } from 'antd';
 
 import * as TEAMS from '../../constants/teamInfo';
-import TeamSelection from '../TeamSelection/TeamSelection';
 
 const divStyle = {
   float: 'left',
@@ -13,11 +12,6 @@ const containerStyle = {
   paddingLeft: '20%'
 }
 
-const _onMenuClick = (ev) => {
-  console.log('onMenuClick : ', ev)
-
-}
-
 export default class AddTeam extends Component {
 
   constructor(props) {
@@ -26,12 +20,15 @@ export default class AddTeam extends Component {
   }
 
   _renderTeamItem(teamId, teamName) {
+    const { tradeTeams, numTeamsInTrade } = this.props;
+    const disableTeamItem = (numTeamsInTrade > 1) && !tradeTeams[teamId];
+
     const teamItemStyle = {
       width: '120px'
     };
 
     return (
-      <Menu.Item key={teamId}>
+      <Menu.Item key={teamId} disabled={disableTeamItem}>
         <div style={teamItemStyle}>
           {teamName}
         </div>
@@ -77,9 +74,7 @@ export default class AddTeam extends Component {
 
   render() {
     const { numTeamsInTrade } = this.props;
-    let isAddTeamDisabled = numTeamsInTrade > 1 ? true : false;
-
-    console.log('numTeamsInTrade : ', numTeamsInTrade, isAddTeamDisabled)
+    const isAddTeamDisabled = numTeamsInTrade > 1 ? true : false;
 
     return (
       <div>
