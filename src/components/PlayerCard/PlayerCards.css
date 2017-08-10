@@ -1,0 +1,13 @@
+.player-cards {
+	overflow-y: auto;
+	height: 50vh;
+}
+
+.player {
+	width: 90%;
+	margin: 5px auto;
+	min-height: 61px;
+	border-radius: 1px;
+	transition: 0.15s;
+	cursor: pointer;
+}

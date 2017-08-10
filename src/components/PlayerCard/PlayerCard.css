@@ -1,0 +1,14 @@
+.player {
+	width: 90%;
+	margin: 0 auto 10px;
+	background: #fff;
+	min-height: 61px;
+	border-radius: 5px;
+	box-shadow: 1px 1px 1px rgba(0,0,0,.3);
+	transition: 0.15s;
+	cursor: pointer;
+
+	&:hover {
+		background: #f7f7f7;
+  }
+}

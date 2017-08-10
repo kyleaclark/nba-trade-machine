@@ -1,0 +1,3 @@
+export const ADD_TRADE_TEAM = 'ADD_TRADE_TEAM';
+export const MOVE_PLAYER = 'MOVE_PLAYER';
+export const TOGGLE_DRAGGING = 'TOGGLE_DRAGGING';

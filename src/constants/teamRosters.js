@@ -1,0 +1,3571 @@
+export const AtlantaHawks = [{
+  "id": "AtlantaHawks_1",
+  "firstName": "Kent",
+  "lastName": "Bazemore",
+  "position": "SF",
+  "salary": 16910113,
+  "contractYears": 3,
+  "tradeEligible": true
+}, {
+  "id": "AtlantaHawks_2",
+  "firstName": "Dennis",
+  "lastName": "Schroder",
+  "position": "PG",
+  "salary": 15500000,
+  "contractYears": 4,
+  "tradeEligible": true
+}, {
+  "id": "AtlantaHawks_3",
+  "firstName": "Mason",
+  "lastName": "Plumlee",
+  "position": "SF",
+  "salary": 12500000,
+  "contractYears": 3,
+  "tradeEligible": true
+}, {
+  "id": "AtlantaHawks_4",
+  "firstName": "Marco",
+  "lastName": "Belinelli",
+  "position": "SF",
+  "salary": 6060606,
+  "contractYears": 1,
+  "tradeEligible": true
+}, {
+  "id": "AtlantaHawks_5",
+  "firstName": "Ersan",
+  "lastName": "Ilyasova",
+  "position": "PF",
+  "salary": 6000000,
+  "contractYears": 1,
+  "tradeEligible": false
+}, {
+  "id": "AtlantaHawks_6",
+  "firstName": "Dewayne",
+  "lastName": "Dedmon",
+  "position": "C",
+  "salary": 6000000,
+  "contractYears": 2,
+  "tradeEligible": false
+}, {
+  "id": "AtlantaHawks_7",
+  "firstName": "Mike",
+  "lastName": "Muscala",
+  "position": "PF",
+  "salary": 5000000,
+  "contractYears": 2,
+  "tradeEligible": false
+}, {
+  "id": "AtlantaHawks_8",
+  "firstName": "Malcolm",
+  "lastName": "Delaney",
+  "position": "G",
+  "salary": 2500000,
+  "contractYears": 1,
+  "tradeEligible": true
+}, {
+  "id": "AtlantaHawks_9",
+  "firstName": "Taruean",
+  "lastName": "Prince",
+  "position": "SF",
+  "salary": 2422560,
+  "contractYears": 3,
+  "tradeEligible": true
+}, {
+  "id": "AtlantaHawks_10",
+  "firstName": "John",
+  "lastName": "Collins",
+  "position": "PF",
+  "salary": 1936920,
+  "contractYears": 4,
+  "tradeEligible": true
+}, {
+  "id": "AtlantaHawks_11",
+  "firstName": "DeAndre'",
+  "lastName": "Bembry",
+  "position": "SF",
+  "salary": 1567200,
+  "contractYears": 3,
+  "tradeEligible": true
+}, {
+  "id": "AtlantaHawks_12",
+  "firstName": "Nicolas",
+  "lastName": "Brussino",
+  "position": "SF",
+  "salary": 1312611,
+  "contractYears": 2,
+  "tradeEligible": false
+}, {
+  "id": "AtlantaHawks_13",
+  "firstName": "Tyler",
+  "lastName": "Dorsey",
+  "position": "SG",
+  "salary": 815615,
+  "contractYears": 2,
+  "tradeEligible": false
+}];
+
+export const BostonCeltics = [{
+  "id": "BostonCeltics_1",
+  "firstName": "Gordon",
+  "lastName": "Hayward",
+  "position": "SF",
+  "salary": 29727900,
+  "contractYears": 4,
+  "tradeEligible": false
+}, {
+  "id": "BostonCeltics_2",
+  "firstName": "Al",
+  "lastName": "Horford",
+  "position": "C",
+  "salary": 27734406,
+  "contractYears": 3,
+  "tradeEligible": true
+}, {
+  "id": "BostonCeltics_3",
+  "firstName": "Jae",
+  "lastName": "Crowder",
+  "position": "SF",
+  "salary": 6796117,
+  "contractYears": 3,
+  "tradeEligible": true
+}, {
+  "id": "BostonCeltics_4",
+  "firstName": "Isaiah",
+  "lastName": "Thomas",
+  "position": "PG",
+  "salary": 6261395,
+  "contractYears": 1,
+  "tradeEligible": true
+}, {
+  "id": "BostonCeltics_5",
+  "firstName": "Alan",
+  "lastName": "Williams",
+  "position": "C",
+  "salary": 6000000,
+  "contractYears": 3,
+  "tradeEligible": false
+}, {
+  "id": "BostonCeltics_6",
+  "firstName": "Jayson",
+  "lastName": "Tatum",
+  "position": "SF",
+  "salary": 5645400,
+  "contractYears": 4,
+  "tradeEligible": true
+}, {
+  "id": "BostonCeltics_7",
+  "firstName": "Marcus",
+  "lastName": "Morris",
+  "position": "PF",
+  "salary": 5000000,
+  "contractYears": 2,
+  "tradeEligible": true
+}, {
+  "id": "BostonCeltics_8",
+  "firstName": "Jaylen",
+  "lastName": "Brown",
+  "position": "SF",
+  "salary": 4956480,
+  "contractYears": 3,
+  "tradeEligible": true
+}, {
+  "id": "BostonCeltics_9",
+  "firstName": "Marcus",
+  "lastName": "Smart",
+  "position": "PG",
+  "salary": 4538020,
+  "contractYears": 2,
+  "tradeEligible": true
+}, {
+  "id": "BostonCeltics_10",
+  "firstName": "Aron",
+  "lastName": "Baynes",
+  "position": "C",
+  "salary": 4238000,
+  "contractYears": 1,
+  "tradeEligible": false
+}, {
+  "id": "BostonCeltics_11",
+  "firstName": "Guerschon",
+  "lastName": "Yabusele",
+  "position": "SG",
+  "salary": 2247480,
+  "contractYears": 4,
+  "tradeEligible": false
+}, {
+  "id": "BostonCeltics_12",
+  "firstName": "Terry",
+  "lastName": "Rozier",
+  "position": "PG",
+  "salary": 1988520,
+  "contractYears": 2,
+  "tradeEligible": true
+}, {
+  "id": "BostonCeltics_14",
+  "firstName": "Ante",
+  "lastName": "Zizic",
+  "position": "PF",
+  "salary": 1645200,
+  "contractYears": 4,
+  "tradeEligible": true
+}, {
+  "id": "BostonCeltics_15",
+  "firstName": "Shane",
+  "lastName": "Larkin",
+  "position": "PG",
+  "salary": 1471382,
+  "contractYears": 1,
+  "tradeEligible": false
+}, {
+  "id": "BostonCeltics_16",
+  "firstName": "Semi",
+  "lastName": "Ojeleye",
+  "position": "PF",
+  "salary": 1291892,
+  "contractYears": 4,
+  "tradeEligible": false
+}, {
+  "id": "BostonCeltics_17",
+  "firstName": "Abdel",
+  "lastName": "Nader",
+  "position": "SF",
+  "salary": 1167333,
+  "contractYears": 4,
+  "tradeEligible": false
+}, {
+  "id": "BostonCeltics_18",
+  "firstName": "Daniel",
+  "lastName": "Theis",
+  "position": "PF",
+  "salary": 815615,
+  "contractYears": 2,
+  "tradeEligible": false
+}];
+
+export const BrooklynNets = [{
+  "id": "BrooklynNets_1",
+  "firstName": "Allen",
+  "lastName": "Crabbe",
+  "position": "SG",
+  "salary": 19332500,
+  "contractYears": 3,
+  "tradeEligible": true
+}, {
+  "id": "BrooklynNets_2",
+  "firstName": "Timofey",
+  "lastName": "Mozgov",
+  "position": "C",
+  "salary": 15280000,
+  "contractYears": 3,
+  "tradeEligible": true
+}, {
+  "id": "BrooklynNets_3",
+  "firstName": "Demarre",
+  "lastName": "Carroll",
+  "position": "SF",
+  "salary": 14800000,
+  "contractYears": 2,
+  "tradeEligible": true
+}, {
+  "id": "BrooklynNets_4",
+  "firstName": "Jeremy",
+  "lastName": "Lin",
+  "position": "PG",
+  "salary": 12000000,
+  "contractYears": 2,
+  "tradeEligible": true
+}, {
+  "id": "BrooklynNets_5",
+  "firstName": "Trevor",
+  "lastName": "Booker",
+  "position": "PF",
+  "salary": 9125000,
+  "contractYears": 1,
+  "tradeEligible": true
+}, {
+  "id": "BrooklynNets_6",
+  "firstName": "D'Angelo",
+  "lastName": "Russell",
+  "position": "PG",
+  "salary": 5562360,
+  "contractYears": 2,
+  "tradeEligible": true
+}, {
+  "id": "BrooklynNets_7",
+  "firstName": "Jarrett",
+  "lastName": "Allen",
+  "position": "C",
+  "salary": 1713720,
+  "contractYears": 4,
+  "tradeEligible": false
+}, {
+  "id": "BrooklynNets_8",
+  "firstName": "Quincy",
+  "lastName": "Ancy",
+  "position": "SF",
+  "salary": 1709538,
+  "contractYears": 1,
+  "tradeEligible": true
+}, {
+  "id": "BrooklynNets_9",
+  "firstName": "Caris",
+  "lastName": "LeVert",
+  "position": "SG",
+  "salary": 1632480,
+  "contractYears": 3,
+  "tradeEligible": true
+}, {
+  "id": "BrooklynNets_10",
+  "firstName": "Sean",
+  "lastName": "Kilpatrick",
+  "position": "SG",
+  "salary": 1524305,
+  "contractYears": 1,
+  "tradeEligible": true
+}, {
+  "id": "BrooklynNets_11",
+  "firstName": "Joe",
+  "lastName": "Harris",
+  "position": "SG",
+  "salary": 1524305,
+  "contractYears": 1,
+  "tradeEligible": true
+}, {
+  "id": "BrooklynNets_12",
+  "firstName": "Spencer",
+  "lastName": "Dinwiddle",
+  "position": "PG",
+  "salary": 1524305,
+  "contractYears": 2,
+  "tradeEligible": true
+}, {
+  "id": "BrooklynNets_14",
+  "firstName": "Rondae",
+  "lastName": "Hollis-Jefferson",
+  "position": "SG",
+  "salary": 1471382,
+  "contractYears": 2,
+  "tradeEligible": true
+}, {
+  "id": "BrooklynNets_15",
+  "firstName": "Isaiah",
+  "lastName": "Whitehead",
+  "position": "SG",
+  "salary": 1312611,
+  "contractYears": 3,
+  "tradeEligible": true
+}];
+
+export const CharlotteHornets = [{
+  "id": "CharlotteHornets_1",
+  "firstName": "Dwight",
+  "lastName": "Howard",
+  "position": "C",
+  "salary": 23500000,
+  "contractYears": 2,
+  "tradeEligible": true
+}, {
+  "id": "CharlotteHornets_2",
+  "firstName": "Nicholas",
+  "lastName": "Batum",
+  "position": "SG",
+  "salary": 22434783,
+  "contractYears": 4,
+  "tradeEligible": true
+}, {
+  "id": "CharlotteHornets_3",
+  "firstName": "Marvin",
+  "lastName": "Williams",
+  "position": "PF",
+  "salary": 13168750,
+  "contractYears": 3,
+  "tradeEligible": true
+}, {
+  "id": "CharlotteHornets_4",
+  "firstName": "Michael",
+  "lastName": "Kidd-Gilchrist",
+  "position": "SF",
+  "salary": 13000000,
+  "contractYears": 3,
+  "tradeEligible": true
+}, {
+  "id": "CharlotteHornets_5",
+  "firstName": "Cody",
+  "lastName": "Zeller",
+  "position": "C",
+  "salary": 12584270,
+  "contractYears": 4,
+  "tradeEligible": true
+}, {
+  "id": "CharlotteHornets_6",
+  "firstName": "Kemba",
+  "lastName": "Walker",
+  "position": "PG",
+  "salary": 12000000,
+  "contractYears": 2,
+  "tradeEligible": true
+}, {
+  "id": "CharlotteHornets_7",
+  "firstName": "Jeremy",
+  "lastName": "Lamb",
+  "position": "SG",
+  "salary": 7000000,
+  "contractYears": 2,
+  "tradeEligible": true
+}, {
+  "id": "CharlotteHornets_8",
+  "firstName": "Malik",
+  "lastName": "Monk",
+  "position": "SG",
+  "salary": 2904480,
+  "contractYears": 4,
+  "tradeEligible": true
+}, {
+  "id": "CharlotteHornets_9",
+  "firstName": "Frank",
+  "lastName": "Kaminsky",
+  "position": "C",
+  "salary": 2847600,
+  "contractYears": 2,
+  "tradeEligible": true
+}, {
+  "id": "CharlotteHornets_10",
+  "firstName": "Michael",
+  "lastName": "Carter-Williams",
+  "position": "PG",
+  "salary": 2700000,
+  "contractYears": 1,
+  "tradeEligible": false
+}, {
+  "id": "CharlotteHornets_11",
+  "firstName": "Johnny",
+  "lastName": "O'Bryant",
+  "position": "PF",
+  "salary": 1524305,
+  "contractYears": 1,
+  "tradeEligible": true
+}, {
+  "id": "CharlotteHornets_12",
+  "firstName": "Treveon",
+  "lastName": "Graham",
+  "position": "SG",
+  "salary": 1312611,
+  "contractYears": 1,
+  "tradeEligible": true
+}, {
+  "id": "CharlotteHornets_14",
+  "firstName": "T.J.",
+  "lastName": "Williams",
+  "position": "PG",
+  "salary": 815615,
+  "contractYears": 1,
+  "tradeEligible": false
+}, {
+  "id": "CharlotteHornets_15",
+  "firstName": "Isaiah",
+  "lastName": "Hicks",
+  "position": "PF",
+  "salary": 815615,
+  "contractYears": 1,
+  "tradeEligible": false
+}, {
+  "id": "CharlotteHornets_16",
+  "firstName": "Dwayne",
+  "lastName": "Bacon",
+  "position": "SG",
+  "salary": 815615,
+  "contractYears": 3,
+  "tradeEligible": true
+}];
+
+export const ChicagoBulls = [{
+  "id": "ChicagoBulls_1",
+  "firstName": "Dwyane",
+  "lastName": "Wade",
+  "position": "SG",
+  "salary": 23800000,
+  "contractYears": 1,
+  "tradeEligible": true
+}, {
+  "id": "ChicagoBulls_2",
+  "firstName": "Robin",
+  "lastName": "Lopez",
+  "position": "SG",
+  "salary": 13788500,
+  "contractYears": 2,
+  "tradeEligible": true
+}, {
+  "id": "ChicagoBulls_3",
+  "firstName": "Cristiano",
+  "lastName": "Felicio",
+  "position": "PF",
+  "salary": 7833500,
+  "contractYears": 4,
+  "tradeEligible": false
+}, {
+  "id": "ChicagoBulls_4",
+  "firstName": "Justin",
+  "lastName": "Holiday",
+  "position": "SG",
+  "salary": 4615385,
+  "contractYears": 2,
+  "tradeEligible": false
+}, {
+  "id": "ChicagoBulls_5",
+  "firstName": "Kris",
+  "lastName": "Dunn",
+  "position": "PG",
+  "salary": 4046760,
+  "contractYears": 3,
+  "tradeEligible": true
+}, {
+  "id": "ChicagoBulls_6",
+  "firstName": "Lauri",
+  "lastName": "Markkanen",
+  "position": "PF",
+  "salary": 3821640,
+  "contractYears": 4,
+  "tradeEligible": true
+}, {
+  "id": "ChicagoBulls_7",
+  "firstName": "Zach",
+  "lastName": "LaVine",
+  "position": "PG",
+  "salary": 3202218,
+  "contractYears": 1,
+  "tradeEligible": true
+}, {
+  "id": "ChicagoBulls_8",
+  "firstName": "Cameron",
+  "lastName": "Payne",
+  "position": "PG",
+  "salary": 2203440,
+  "contractYears": 2,
+  "tradeEligible": true
+}, {
+  "id": "ChicagoBulls_9",
+  "firstName": "Denzel",
+  "lastName": "Valentine",
+  "position": "SG",
+  "salary": 2186400,
+  "contractYears": 3,
+  "tradeEligible": true
+}, {
+  "id": "ChicagoBulls_10",
+  "firstName": "Jerian",
+  "lastName": "Grant",
+  "position": "PG",
+  "salary": 1713840,
+  "contractYears": 2,
+  "tradeEligible": false
+}, {
+  "id": "ChicagoBulls_11",
+  "firstName": "Bobby",
+  "lastName": "Portis",
+  "position": "PF",
+  "salary": 1516320,
+  "contractYears": 2,
+  "tradeEligible": true
+}, {
+  "id": "ChicagoBulls_12",
+  "firstName": "Paul",
+  "lastName": "Zipser",
+  "position": "SG",
+  "salary": 1312611,
+  "contractYears": 3,
+  "tradeEligible": true
+}, {
+  "id": "ChicagoBulls_13",
+  "firstName": "David",
+  "lastName": "Nwaba",
+  "position": "PG",
+  "salary": 1312611,
+  "contractYears": 1,
+  "tradeEligible": false
+}];
+
+export const ClevelandCavaliers = [{
+  "id": "ClevelandCavaliers_1",
+  "firstName": "LeBron",
+  "lastName": "James",
+  "position": "SF",
+  "salary": 33285709,
+  "contractYears": 2,
+  "tradeEligible": true
+}, {
+  "id": "ClevelandCavaliers_2",
+  "firstName": "Kevin",
+  "lastName": "Love",
+  "position": "PF",
+  "salary": 22642350,
+  "contractYears": 3,
+  "tradeEligible": true
+}, {
+  "id": "ClevelandCavaliers_3",
+  "firstName": "Kyrie",
+  "lastName": "Irving",
+  "position": "PG",
+  "salary": 18868626,
+  "contractYears": 3,
+  "tradeEligible": true
+}, {
+  "id": "ClevelandCavaliers_4",
+  "firstName": "Tristan",
+  "lastName": "Thompson",
+  "position": "C",
+  "salary": 16400000,
+  "contractYears": 3,
+  "tradeEligible": true
+}, {
+  "id": "ClevelandCavaliers_5",
+  "firstName": "JR",
+  "lastName": "Smith",
+  "position": "SG",
+  "salary": 13760000,
+  "contractYears": 3,
+  "tradeEligible": true
+}, {
+  "id": "ClevelandCavaliers_6",
+  "firstName": "Iman",
+  "lastName": "Shumphert",
+  "position": "SG",
+  "salary": 10337079,
+  "contractYears": 2,
+  "tradeEligible": true
+}, {
+  "id": "ClevelandCavaliers_7",
+  "firstName": "Channing",
+  "lastName": "Frye",
+  "position": "C",
+  "salary": 7420912,
+  "contractYears": 1,
+  "tradeEligible": true
+}, {
+  "id": "ClevelandCavaliers_8",
+  "firstName": "Kyle",
+  "lastName": "Korver",
+  "position": "SG",
+  "salary": 7000000,
+  "contractYears": 3,
+  "tradeEligible": false
+}, {
+  "id": "ClevelandCavaliers_9",
+  "firstName": "Cedi",
+  "lastName": "Osman",
+  "position": "SF",
+  "salary": 2642857,
+  "contractYears": 3,
+  "tradeEligible": false
+}, {
+  "id": "ClevelandCavaliers_10",
+  "firstName": "Richard",
+  "lastName": "Jefferson",
+  "position": "SF",
+  "salary": 2500000,
+  "contractYears": 2,
+  "tradeEligible": true
+}, {
+  "id": "ClevelandCavaliers_11",
+  "firstName": "Derrick",
+  "lastName": "Rose",
+  "position": "PG",
+  "salary": 1471382,
+  "contractYears": 1,
+  "tradeEligible": false
+}, {
+  "id": "ClevelandCavaliers_12",
+  "firstName": "Jeff",
+  "lastName": "Green",
+  "position": "SF",
+  "salary": 1471382,
+  "contractYears": 1,
+  "tradeEligible": false
+}, {
+  "id": "ClevelandCavaliers_13",
+  "firstName": "Jose",
+  "lastName": "Calderon",
+  "position": "PG",
+  "salary": 1471382,
+  "contractYears": 1,
+  "tradeEligible": true
+}, {
+  "id": "ClevelandCavaliers_14",
+  "firstName": "Edy",
+  "lastName": "Tavares",
+  "position": "C",
+  "salary": 1312611,
+  "contractYears": 2,
+  "tradeEligible": true
+}, {
+  "id": "ClevelandCavaliers_15",
+  "firstName": "Kay",
+  "lastName": "Felder",
+  "position": "PG",
+  "salary": 1312611,
+  "contractYears": 2,
+  "tradeEligible": true
+}];
+
+export const DallasMavericks = [{
+  "id": "DallasMavericks_1",
+  "firstName": "Harrison",
+  "lastName": "Barnes",
+  "position": "SF",
+  "salary": 23112004,
+  "contractYears": 3,
+  "tradeEligible": true
+}, {
+  "id": "DallasMavericks_2",
+  "firstName": "Wesley",
+  "lastName": "Matthews",
+  "position": "SG",
+  "salary": 17884176,
+  "contractYears": 2,
+  "tradeEligible": true
+}, {
+  "id": "DallasMavericks_3",
+  "firstName": "Dwight",
+  "lastName": "Powell",
+  "position": "PF",
+  "salary": 9003125,
+  "contractYears": 3,
+  "tradeEligible": false
+}, {
+  "id": "DallasMavericks_4",
+  "firstName": "Josh",
+  "lastName": "McRoberts",
+  "position": "PF",
+  "salary": 6021175,
+  "contractYears": 1,
+  "tradeEligible": true
+}, {
+  "id": "DallasMavericks_5",
+  "firstName": "Dirk",
+  "lastName": "Nowitzski",
+  "position": "PF",
+  "salary": 5000000,
+  "contractYears": 2,
+  "tradeEligible": true
+}, {
+  "id": "DallasMavericks_6",
+  "firstName": "Devin",
+  "lastName": "Harris",
+  "position": "PG",
+  "salary": 4402546,
+  "contractYears": 1,
+  "tradeEligible": true
+}, {
+  "id": "DallasMavericks_7",
+  "firstName": "J.J.",
+  "lastName": "Barea",
+  "position": "PG",
+  "salary": 3903900,
+  "contractYears": 2,
+  "tradeEligible": true
+}, {
+  "id": "DallasMavericks_8",
+  "firstName": "Dennis",
+  "lastName": "Smith Jr.",
+  "position": "PG",
+  "salary": 3218280,
+  "contractYears": 4,
+  "tradeEligible": true
+}, {
+  "id": "DallasMavericks_9",
+  "firstName": "Seth",
+  "lastName": "Curry",
+  "position": "SG",
+  "salary": 3028410,
+  "contractYears": 1,
+  "tradeEligible": true
+}, {
+  "id": "DallasMavericks_10",
+  "firstName": "Salah",
+  "lastName": "Mejri",
+  "position": "C",
+  "salary": 1471382,
+  "contractYears": 1,
+  "tradeEligible": true
+}, {
+  "id": "DallasMavericks_11",
+  "firstName": "Dorian",
+  "lastName": "Finney-Smith",
+  "position": "PF",
+  "salary": 1312611,
+  "contractYears": 2,
+  "tradeEligible": true
+}, {
+  "id": "DallasMavericks_12",
+  "firstName": "Yogi",
+  "lastName": "Ferrell",
+  "position": "PG",
+  "salary": 1312611,
+  "contractYears": 1,
+  "tradeEligible": true
+}, {
+  "id": "DallasMavericks_14",
+  "firstName": "Max",
+  "lastName": "Kleber",
+  "position": "PF",
+  "salary": 815615,
+  "contractYears": 2,
+  "tradeEligible": false
+}];
+
+export const DenverNuggets = [{
+  "id": "DenverNuggets_1",
+  "firstName": "Hassan",
+  "lastName": "Whiteside",
+  "position": "C",
+  "salary": 23775506,
+  "contractYears": 3,
+  "tradeEligible": true
+}, {
+  "id": "DenverNuggets_2",
+  "firstName": "Goran",
+  "lastName": "Dragic",
+  "position": "PG",
+  "salary": 17000450,
+  "contractYears": 3,
+  "tradeEligible": true
+}, {
+  "id": "DenverNuggets_3",
+  "firstName": "James",
+  "lastName": "Johnson",
+  "position": "PF",
+  "salary": 13734000,
+  "contractYears": 4,
+  "tradeEligible": false
+}, {
+  "id": "DenverNuggets_4",
+  "firstName": "Dion",
+  "lastName": "Waiters",
+  "position": "SG",
+  "salary": 11000000,
+  "contractYears": 4,
+  "tradeEligible": false
+}, {
+  "id": "DenverNuggets_5",
+  "firstName": "Kelly",
+  "lastName": "Olynyk",
+  "position": "C",
+  "salary": 10607169,
+  "contractYears": 4,
+  "tradeEligible": false
+}, {
+  "id": "DenverNuggets_6",
+  "firstName": "Wayne",
+  "lastName": "Ellington",
+  "position": "SG",
+  "salary": 6270000,
+  "contractYears": 1,
+  "tradeEligible": true
+}, {
+  "id": "DenverNuggets_7",
+  "firstName": "Tyler",
+  "lastName": "Johnson",
+  "position": "SG",
+  "salary": 5881260,
+  "contractYears": 3,
+  "tradeEligible": true
+}, {
+  "id": "DenverNuggets_8",
+  "firstName": "Justise",
+  "lastName": "Winslow",
+  "position": "SF",
+  "salary": 2705040,
+  "contractYears": 2,
+  "tradeEligible": true
+}, {
+  "id": "DenverNuggets_9",
+  "firstName": "Bam",
+  "lastName": "Adebayo",
+  "position": "PF",
+  "salary": 2490360,
+  "contractYears": 4,
+  "tradeEligible": true
+}, {
+  "id": "DenverNuggets_10",
+  "firstName": "Josh",
+  "lastName": "Richardson",
+  "position": "SG",
+  "salary": 1471382,
+  "contractYears": 1,
+  "tradeEligible": true
+}, {
+  "id": "DenverNuggets_11",
+  "firstName": "Udons",
+  "lastName": "Haslem",
+  "position": "PF",
+  "salary": 1471382,
+  "contractYears": 1,
+  "tradeEligible": false
+}, {
+  "id": "DenverNuggets_12",
+  "firstName": "Okaro",
+  "lastName": "White",
+  "position": "PF",
+  "salary": 1312611,
+  "contractYears": 1,
+  "tradeEligible": true
+}, {
+  "id": "DenverNuggets_14",
+  "firstName": "Rodney",
+  "lastName": "McGruder",
+  "position": "SG",
+  "salary": 1312611,
+  "contractYears": 2,
+  "tradeEligible": true
+}, {
+  "id": "DenverNuggets_15",
+  "firstName": "AJ",
+  "lastName": "Hammons",
+  "position": "C",
+  "salary": 1312611,
+  "contractYears": 2,
+  "tradeEligible": true
+}, {
+  "id": "DenverNuggets_16",
+  "firstName": "Matt",
+  "lastName": "Williams",
+  "position": "SG",
+  "salary": 815615,
+  "contractYears": 2,
+  "tradeEligible": false
+}];
+
+export const DetroitPistons = [{
+  "id": "DetroitPistons_1",
+  "firstName": "Dwight",
+  "lastName": "Howard",
+  "position": "C",
+  "salary": 23500000,
+  "contractYears": 2,
+  "tradeEligible": true
+}, {
+  "id": "DetroitPistons_2",
+  "firstName": "Andre",
+  "lastName": "Drummond",
+  "position": "C",
+  "salary": 23775506,
+  "contractYears": 4,
+  "tradeEligible": true
+}, {
+  "id": "DetroitPistons_3",
+  "firstName": "Reggie",
+  "lastName": "Jackson",
+  "position": "PG",
+  "salary": 16000000,
+  "contractYears": 3,
+  "tradeEligible": true
+}, {
+  "id": "DetroitPistons_4",
+  "firstName": "Tobias",
+  "lastName": "Harris",
+  "position": "SF",
+  "salary": 16000000,
+  "contractYears": 2,
+  "tradeEligible": true
+}, {
+  "id": "DetroitPistons_5",
+  "firstName": "Jon",
+  "lastName": "Leuer",
+  "position": "PF",
+  "salary": 10497318,
+  "contractYears": 3,
+  "tradeEligible": true
+}, {
+  "id": "DetroitPistons_6",
+  "firstName": "Avery",
+  "lastName": "Bradley",
+  "position": "PG",
+  "salary": 8808989,
+  "contractYears": 1,
+  "tradeEligible": true
+}, {
+  "id": "DetroitPistons_7",
+  "firstName": "Boban",
+  "lastName": "Marjanovic",
+  "position": "C",
+  "salary": 7000000,
+  "contractYears": 2,
+  "tradeEligible": true
+}, {
+  "id": "DetroitPistons_8",
+  "firstName": "Langston",
+  "lastName": "Galloway",
+  "position": "SG",
+  "salary": 6666667,
+  "contractYears": 3,
+  "tradeEligible": false
+}, {
+  "id": "DetroitPistons_9",
+  "firstName": "Ish",
+  "lastName": "Smith",
+  "position": "PG",
+  "salary": 6000000,
+  "contractYears": 2,
+  "tradeEligible": true
+}, {
+  "id": "DetroitPistons_10",
+  "firstName": "Anthony",
+  "lastName": "Tolliver",
+  "position": "PF",
+  "salary": 3290000,
+  "contractYears": 1,
+  "tradeEligible": false
+}, {
+  "id": "DetroitPistons_11",
+  "firstName": "Stanley",
+  "lastName": "Johnson",
+  "position": "SF",
+  "salary": 3097800,
+  "contractYears": 2,
+  "tradeEligible": true
+}, {
+  "id": "DetroitPistons_12",
+  "firstName": "Luke",
+  "lastName": "Kennard",
+  "position": "SG",
+  "salary": 2759280,
+  "contractYears": 4,
+  "tradeEligible": true
+}, {
+  "id": "DetroitPistons_14",
+  "firstName": "Reggie",
+  "lastName": "Bullock",
+  "position": "SF",
+  "salary": 2500000,
+  "contractYears": 2,
+  "tradeEligible": false
+}, {
+  "id": "DetroitPistons_15",
+  "firstName": "Henry",
+  "lastName": "Ellenson",
+  "position": "PF",
+  "salary": 1780800,
+  "contractYears": 3,
+  "tradeEligible": false
+}, {
+  "id": "DetroitPistons_16",
+  "firstName": "Eric",
+  "lastName": "Moreland",
+  "position": "PG",
+  "salary": 1739333,
+  "contractYears": 3,
+  "tradeEligible": false
+}];
+
+export const GoldenStateWarriors = [{
+  "id": "GoldenStateWarriors_1",
+  "firstName": "Giannis",
+  "lastName": "Antetokounmpo",
+  "position": "SF",
+  "salary": 22471910,
+  "contractYears": 4,
+  "tradeEligible": true
+}, {
+  "id": "GoldenStateWarriors_2",
+  "firstName": "Greg",
+  "lastName": "Monroe",
+  "position": "C",
+  "salary": 17884176,
+  "contractYears": 1,
+  "tradeEligible": true
+}, {
+  "id": "GoldenStateWarriors_3",
+  "firstName": "Khris",
+  "lastName": "Middleton",
+  "position": "SG",
+  "salary": 14100000,
+  "contractYears": 3,
+  "tradeEligible": true
+}, {
+  "id": "GoldenStateWarriors_4",
+  "firstName": "John",
+  "lastName": "Henson",
+  "position": "SF",
+  "salary": 11422536,
+  "contractYears": 3,
+  "tradeEligible": true
+}, {
+  "id": "GoldenStateWarriors_5",
+  "firstName": "Mirza",
+  "lastName": "Teletovic",
+  "position": "PF",
+  "salary": 10500000,
+  "contractYears": 2,
+  "tradeEligible": true
+}, {
+  "id": "GoldenStateWarriors_6",
+  "firstName": "Tony",
+  "lastName": "Snell",
+  "position": "SF",
+  "salary": 9887640,
+  "contractYears": 4,
+  "tradeEligible": false
+}, {
+  "id": "GoldenStateWarriors_7",
+  "firstName": "Matthew",
+  "lastName": "Dellavedova",
+  "position": "PG",
+  "salary": 9607500,
+  "contractYears": 3,
+  "tradeEligible": true
+}, {
+  "id": "GoldenStateWarriors_8",
+  "firstName": "Jabari",
+  "lastName": "Parker",
+  "position": "PF",
+  "salary": 6782392,
+  "contractYears": 1,
+  "tradeEligible": true
+}, {
+  "id": "GoldenStateWarriors_9",
+  "firstName": "Spencer",
+  "lastName": "Hawes",
+  "position": "PF",
+  "salary": 6061175,
+  "contractYears": 1,
+  "tradeEligible": true
+}, {
+  "id": "GoldenStateWarriors_10",
+  "firstName": "Thon",
+  "lastName": "Maker",
+  "position": "PF",
+  "salary": 2684160,
+  "contractYears": 3,
+  "tradeEligible": true
+}, {
+  "id": "GoldenStateWarriors_11",
+  "firstName": "D.J.",
+  "lastName": "Wilson",
+  "position": "PF",
+  "salary": 2135040,
+  "contractYears": 4,
+  "tradeEligible": true
+}, {
+  "id": "GoldenStateWarriors_12",
+  "firstName": "Rashad",
+  "lastName": "Vaughn",
+  "position": "SG",
+  "salary": 1889040,
+  "contractYears": 2,
+  "tradeEligible": true
+}, {
+  "id": "GoldenStateWarriors_14",
+  "firstName": "Gary",
+  "lastName": "Payton II",
+  "position": "PG",
+  "salary": 1312611,
+  "contractYears": 1,
+  "tradeEligible": false
+}, {
+  "id": "GoldenStateWarriors_15",
+  "firstName": "Malcolm",
+  "lastName": "Brogdon",
+  "position": "PG",
+  "salary": 1312611,
+  "contractYears": 2,
+  "tradeEligible": true
+}, {
+  "id": "GoldenStateWarriors_16",
+  "firstName": "JeQuan",
+  "lastName": "Lewis",
+  "position": "SG",
+  "salary": 815615,
+  "contractYears": 1,
+  "tradeEligible": false
+}, {
+  "id": "GoldenStateWarriors_17",
+  "firstName": "Sterling",
+  "lastName": "Brown",
+  "position": "SG",
+  "salary": 815615,
+  "contractYears": 3,
+  "tradeEligible": true
+}];
+
+export const HoustonRockets = [{
+  "id": "HoustonRockets_1",
+  "firstName": "Evan",
+  "lastName": "Fournier",
+  "position": "SG",
+  "salary": 17000000,
+  "contractYears": 4,
+  "tradeEligible": true
+}, {
+  "id": "HoustonRockets_2",
+  "firstName": "Bismack",
+  "lastName": "Biyombo",
+  "position": "C",
+  "salary": 17000000,
+  "contractYears": 3,
+  "tradeEligible": true
+}, {
+  "id": "HoustonRockets_3",
+  "firstName": "Nikola",
+  "lastName": "Vucevic",
+  "position": "C",
+  "salary": 12250000,
+  "contractYears": 2,
+  "tradeEligible": true
+}, {
+  "id": "HoustonRockets_4",
+  "firstName": "Terrence",
+  "lastName": "Ross",
+  "position": "SF",
+  "salary": 10500000,
+  "contractYears": 2,
+  "tradeEligible": true
+}, {
+  "id": "HoustonRockets_5",
+  "firstName": "D.J.",
+  "lastName": "Augustin",
+  "position": "PG",
+  "salary": 7250000,
+  "contractYears": 3,
+  "tradeEligible": true
+}, {
+  "id": "HoustonRockets_6",
+  "firstName": "Jonathon",
+  "lastName": "Simmons",
+  "position": "SF",
+  "salary": 6300000,
+  "contractYears": 3,
+  "tradeEligible": false
+}, {
+  "id": "HoustonRockets_7",
+  "firstName": "Shelvin",
+  "lastName": "Mack",
+  "position": "PG",
+  "salary": 6000000,
+  "contractYears": 2,
+  "tradeEligible": true
+}, {
+  "id": "HoustonRockets_8",
+  "firstName": "Aaron",
+  "lastName": "Gordon",
+  "position": "PF",
+  "salary": 5504420,
+  "contractYears": 1,
+  "tradeEligible": true
+}, {
+  "id": "HoustonRockets_9",
+  "firstName": "Jonathan",
+  "lastName": "Isaac",
+  "position": "SF",
+  "salary": 4186320,
+  "contractYears": 4,
+  "tradeEligible": true
+}, {
+  "id": "HoustonRockets_10",
+  "firstName": "Mario",
+  "lastName": "Hezonja",
+  "position": "SG",
+  "salary": 3909840,
+  "contractYears": 3,
+  "tradeEligible": false
+}, {
+  "id": "HoustonRockets_11",
+  "firstName": "Elfrid",
+  "lastName": "Payton",
+  "position": "PG",
+  "salary": 3332340,
+  "contractYears": 1,
+  "tradeEligible": true
+}, {
+  "id": "HoustonRockets_12",
+  "firstName": "Marresse",
+  "lastName": "Speights",
+  "position": "PF",
+  "salary": 1471382,
+  "contractYears": 1,
+  "tradeEligible": false
+}, {
+  "id": "HoustonRockets_14",
+  "firstName": "Aaron",
+  "lastName": "Afflalo",
+  "position": "SG",
+  "salary": 1471382,
+  "contractYears": 1,
+  "tradeEligible": false
+}, {
+  "id": "HoustonRockets_15",
+  "firstName": "Wesley",
+  "lastName": "Iwundu",
+  "position": "SG",
+  "salary": 1050000,
+  "contractYears": 3,
+  "tradeEligible": false
+}, {
+  "id": "HoustonRockets_16",
+  "firstName": "Khem",
+  "lastName": "Birch",
+  "position": "C",
+  "salary": 815615,
+  "contractYears": 2,
+  "tradeEligible": false
+}];
+
+export const IndianaPacers = [{
+  "id": "IndianaPacers_1",
+  "firstName": "Victor",
+  "lastName": "Oladipo",
+  "position": "SG",
+  "salary": 21000000,
+  "contractYears": 4,
+  "tradeEligible": true
+}, {
+  "id": "IndianaPacers_2",
+  "firstName": "Thaddeus",
+  "lastName": "Young",
+  "position": "PF",
+  "salary": 14996348,
+  "contractYears": 2,
+  "tradeEligible": true
+}, {
+  "id": "IndianaPacers_3",
+  "firstName": "Bojan",
+  "lastName": "Bogdanovic",
+  "position": "SG",
+  "salary": 10500000,
+  "contractYears": 2,
+  "tradeEligible": false
+}, {
+  "id": "IndianaPacers_4",
+  "firstName": "Darren",
+  "lastName": "Collison",
+  "position": "PG",
+  "salary": 10000000,
+  "contractYears": 2,
+  "tradeEligible": false
+}, {
+  "id": "IndianaPacers_5",
+  "firstName": "Al",
+  "lastName": "Jefferson",
+  "position": "C",
+  "salary": 9769821,
+  "contractYears": 2,
+  "tradeEligible": true
+}, {
+  "id": "IndianaPacers_6",
+  "firstName": "Cory",
+  "lastName": "Joseph",
+  "position": "PG",
+  "salary": 7630000,
+  "contractYears": 2,
+  "tradeEligible": true
+}, {
+  "id": "IndianaPacers_7",
+  "firstName": "Lance",
+  "lastName": "Stephenson",
+  "position": "SF",
+  "salary": 4180000,
+  "contractYears": 2,
+  "tradeEligible": true
+}, {
+  "id": "IndianaPacers_8",
+  "firstName": "Myles",
+  "lastName": "Turner",
+  "position": "C",
+  "salary": 2569920,
+  "contractYears": 2,
+  "tradeEligible": true
+}, {
+  "id": "IndianaPacers_9",
+  "firstName": "Domantas",
+  "lastName": "Sabonis",
+  "position": "PF",
+  "salary": 2550000,
+  "contractYears": 3,
+  "tradeEligible": true
+}, {
+  "id": "IndianaPacers_10",
+  "firstName": "T.J.",
+  "lastName": "Leaf",
+  "position": "PF",
+  "salary": 2028360,
+  "contractYears": 4,
+  "tradeEligible": true
+}, {
+  "id": "IndianaPacers_11",
+  "firstName": "Glenn",
+  "lastName": "Robinson III",
+  "position": "SG",
+  "salary": 1524305,
+  "contractYears": 1,
+  "tradeEligible": true
+}, {
+  "id": "IndianaPacers_12",
+  "firstName": "Joe",
+  "lastName": "Young",
+  "position": "PG",
+  "salary": 1471382,
+  "contractYears": 2,
+  "tradeEligible": true
+}, {
+  "id": "IndianaPacers_14",
+  "firstName": "Ike",
+  "lastName": "Anigbogu",
+  "position": "C",
+  "salary": 950000,
+  "contractYears": 3,
+  "tradeEligible": false
+}];
+
+export const LAClippers = [{
+  "id": "LAClippers_1",
+  "firstName": "Dwight",
+  "lastName": "Howard",
+  "position": "C",
+  "salary": 23500000,
+  "contractYears": 2,
+  "tradeEligible": true
+}, {
+  "id": "LAClippers_2",
+  "firstName": "Nicholas",
+  "lastName": "Batum",
+  "position": "SG",
+  "salary": 22434783,
+  "contractYears": 4,
+  "tradeEligible": true
+}, {
+  "id": "LAClippers_3",
+  "firstName": "Marvin",
+  "lastName": "Williams",
+  "position": "PF",
+  "salary": 13168750,
+  "contractYears": 3,
+  "tradeEligible": true
+}, {
+  "id": "LAClippers_4",
+  "firstName": "Michael",
+  "lastName": "Kidd-Gilchrist",
+  "position": "SF",
+  "salary": 13000000,
+  "contractYears": 3,
+  "tradeEligible": true
+}, {
+  "id": "LAClippers_5",
+  "firstName": "Cody",
+  "lastName": "Zeller",
+  "position": "C",
+  "salary": 12584270,
+  "contractYears": 4,
+  "tradeEligible": true
+}, {
+  "id": "LAClippers_6",
+  "firstName": "Kemba",
+  "lastName": "Walker",
+  "position": "PG",
+  "salary": 12000000,
+  "contractYears": 2,
+  "tradeEligible": true
+}, {
+  "id": "LAClippers_7",
+  "firstName": "Jeremy",
+  "lastName": "Lamb",
+  "position": "SG",
+  "salary": 7000000,
+  "contractYears": 2,
+  "tradeEligible": true
+}, {
+  "id": "LAClippers_8",
+  "firstName": "Malik",
+  "lastName": "Monk",
+  "position": "SG",
+  "salary": 2904480,
+  "contractYears": 4,
+  "tradeEligible": true
+}, {
+  "id": "LAClippers_9",
+  "firstName": "Frank",
+  "lastName": "Kaminsky",
+  "position": "C",
+  "salary": 2847600,
+  "contractYears": 2,
+  "tradeEligible": true
+}, {
+  "id": "LAClippers_10",
+  "firstName": "Michael",
+  "lastName": "Carter-Williams",
+  "position": "PG",
+  "salary": 2700000,
+  "contractYears": 1,
+  "tradeEligible": false
+}, {
+  "id": "LAClippers_11",
+  "firstName": "Johnny",
+  "lastName": "O'Bryant",
+  "position": "PF",
+  "salary": 1524305,
+  "contractYears": 1,
+  "tradeEligible": true
+}, {
+  "id": "LAClippers_12",
+  "firstName": "Treveon",
+  "lastName": "Graham",
+  "position": "SG",
+  "salary": 1312611,
+  "contractYears": 1,
+  "tradeEligible": true
+}, {
+  "id": "LAClippers_14",
+  "firstName": "T.J.",
+  "lastName": "Williams",
+  "position": "PG",
+  "salary": 815615,
+  "contractYears": 1,
+  "tradeEligible": false
+}, {
+  "id": "LAClippers_15",
+  "firstName": "Isaiah",
+  "lastName": "Hicks",
+  "position": "PF",
+  "salary": 815615,
+  "contractYears": 1,
+  "tradeEligible": false
+}, {
+  "id": "LAClippers_16",
+  "firstName": "Dwayne",
+  "lastName": "Bacon",
+  "position": "SG",
+  "salary": 815615,
+  "contractYears": 3,
+  "tradeEligible": true
+}];
+
+export const LALakers = [{
+  "id": "LALakers_1",
+  "firstName": "Dwight",
+  "lastName": "Howard",
+  "position": "C",
+  "salary": 23500000,
+  "contractYears": 2,
+  "tradeEligible": true
+}, {
+  "id": "LALakers_2",
+  "firstName": "Nicholas",
+  "lastName": "Batum",
+  "position": "SG",
+  "salary": 22434783,
+  "contractYears": 4,
+  "tradeEligible": true
+}, {
+  "id": "LALakers_3",
+  "firstName": "Marvin",
+  "lastName": "Williams",
+  "position": "PF",
+  "salary": 13168750,
+  "contractYears": 3,
+  "tradeEligible": true
+}, {
+  "id": "LALakers_4",
+  "firstName": "Michael",
+  "lastName": "Kidd-Gilchrist",
+  "position": "SF",
+  "salary": 13000000,
+  "contractYears": 3,
+  "tradeEligible": true
+}, {
+  "id": "LALakers_5",
+  "firstName": "Cody",
+  "lastName": "Zeller",
+  "position": "C",
+  "salary": 12584270,
+  "contractYears": 4,
+  "tradeEligible": true
+}, {
+  "id": "LALakers_6",
+  "firstName": "Kemba",
+  "lastName": "Walker",
+  "position": "PG",
+  "salary": 12000000,
+  "contractYears": 2,
+  "tradeEligible": true
+}, {
+  "id": "LALakers_7",
+  "firstName": "Jeremy",
+  "lastName": "Lamb",
+  "position": "SG",
+  "salary": 7000000,
+  "contractYears": 2,
+  "tradeEligible": true
+}, {
+  "id": "LALakers_8",
+  "firstName": "Malik",
+  "lastName": "Monk",
+  "position": "SG",
+  "salary": 2904480,
+  "contractYears": 4,
+  "tradeEligible": true
+}, {
+  "id": "LALakers_9",
+  "firstName": "Frank",
+  "lastName": "Kaminsky",
+  "position": "C",
+  "salary": 2847600,
+  "contractYears": 2,
+  "tradeEligible": true
+}, {
+  "id": "LALakers_10",
+  "firstName": "Michael",
+  "lastName": "Carter-Williams",
+  "position": "PG",
+  "salary": 2700000,
+  "contractYears": 1,
+  "tradeEligible": false
+}, {
+  "id": "LALakers_11",
+  "firstName": "Johnny",
+  "lastName": "O'Bryant",
+  "position": "PF",
+  "salary": 1524305,
+  "contractYears": 1,
+  "tradeEligible": true
+}, {
+  "id": "LALakers_12",
+  "firstName": "Treveon",
+  "lastName": "Graham",
+  "position": "SG",
+  "salary": 1312611,
+  "contractYears": 1,
+  "tradeEligible": true
+}, {
+  "id": "LALakers_14",
+  "firstName": "T.J.",
+  "lastName": "Williams",
+  "position": "PG",
+  "salary": 815615,
+  "contractYears": 1,
+  "tradeEligible": false
+}, {
+  "id": "LALakers_15",
+  "firstName": "Isaiah",
+  "lastName": "Hicks",
+  "position": "PF",
+  "salary": 815615,
+  "contractYears": 1,
+  "tradeEligible": false
+}, {
+  "id": "LALakers_16",
+  "firstName": "Dwayne",
+  "lastName": "Bacon",
+  "position": "SG",
+  "salary": 815615,
+  "contractYears": 3,
+  "tradeEligible": true
+}];
+
+export const MemphisGrizzlies = [{
+  "id": "MemphisGrizzlies_1",
+  "firstName": "Dwight",
+  "lastName": "Howard",
+  "position": "C",
+  "salary": 23500000,
+  "contractYears": 2,
+  "tradeEligible": true
+}, {
+  "id": "MemphisGrizzlies_2",
+  "firstName": "Nicholas",
+  "lastName": "Batum",
+  "position": "SG",
+  "salary": 22434783,
+  "contractYears": 4,
+  "tradeEligible": true
+}, {
+  "id": "MemphisGrizzlies_3",
+  "firstName": "Marvin",
+  "lastName": "Williams",
+  "position": "PF",
+  "salary": 13168750,
+  "contractYears": 3,
+  "tradeEligible": true
+}, {
+  "id": "MemphisGrizzlies_4",
+  "firstName": "Michael",
+  "lastName": "Kidd-Gilchrist",
+  "position": "SF",
+  "salary": 13000000,
+  "contractYears": 3,
+  "tradeEligible": true
+}, {
+  "id": "MemphisGrizzlies_5",
+  "firstName": "Cody",
+  "lastName": "Zeller",
+  "position": "C",
+  "salary": 12584270,
+  "contractYears": 4,
+  "tradeEligible": true
+}, {
+  "id": "MemphisGrizzlies_6",
+  "firstName": "Kemba",
+  "lastName": "Walker",
+  "position": "PG",
+  "salary": 12000000,
+  "contractYears": 2,
+  "tradeEligible": true
+}, {
+  "id": "MemphisGrizzlies_7",
+  "firstName": "Jeremy",
+  "lastName": "Lamb",
+  "position": "SG",
+  "salary": 7000000,
+  "contractYears": 2,
+  "tradeEligible": true
+}, {
+  "id": "MemphisGrizzlies_8",
+  "firstName": "Malik",
+  "lastName": "Monk",
+  "position": "SG",
+  "salary": 2904480,
+  "contractYears": 4,
+  "tradeEligible": true
+}, {
+  "id": "MemphisGrizzlies_9",
+  "firstName": "Frank",
+  "lastName": "Kaminsky",
+  "position": "C",
+  "salary": 2847600,
+  "contractYears": 2,
+  "tradeEligible": true
+}, {
+  "id": "MemphisGrizzlies_10",
+  "firstName": "Michael",
+  "lastName": "Carter-Williams",
+  "position": "PG",
+  "salary": 2700000,
+  "contractYears": 1,
+  "tradeEligible": false
+}, {
+  "id": "MemphisGrizzlies_11",
+  "firstName": "Johnny",
+  "lastName": "O'Bryant",
+  "position": "PF",
+  "salary": 1524305,
+  "contractYears": 1,
+  "tradeEligible": true
+}, {
+  "id": "MemphisGrizzlies_12",
+  "firstName": "Treveon",
+  "lastName": "Graham",
+  "position": "SG",
+  "salary": 1312611,
+  "contractYears": 1,
+  "tradeEligible": true
+}, {
+  "id": "MemphisGrizzlies_14",
+  "firstName": "T.J.",
+  "lastName": "Williams",
+  "position": "PG",
+  "salary": 815615,
+  "contractYears": 1,
+  "tradeEligible": false
+}, {
+  "id": "MemphisGrizzlies_15",
+  "firstName": "Isaiah",
+  "lastName": "Hicks",
+  "position": "PF",
+  "salary": 815615,
+  "contractYears": 1,
+  "tradeEligible": false
+}, {
+  "id": "MemphisGrizzlies_16",
+  "firstName": "Dwayne",
+  "lastName": "Bacon",
+  "position": "SG",
+  "salary": 815615,
+  "contractYears": 3,
+  "tradeEligible": true
+}];
+
+export const MiamiHeat = [{
+  "id": "MiamiHeat_1",
+  "firstName": "Hassan",
+  "lastName": "Whiteside",
+  "position": "C",
+  "salary": 23775506,
+  "contractYears": 3,
+  "tradeEligible": true
+}, {
+  "id": "MiamiHeat_2",
+  "firstName": "Goran",
+  "lastName": "Dragic",
+  "position": "PG",
+  "salary": 17000450,
+  "contractYears": 3,
+  "tradeEligible": true
+}, {
+  "id": "MiamiHeat_3",
+  "firstName": "James",
+  "lastName": "Johnson",
+  "position": "PF",
+  "salary": 13734000,
+  "contractYears": 4,
+  "tradeEligible": false
+}, {
+  "id": "MiamiHeat_4",
+  "firstName": "Dion",
+  "lastName": "Waiters",
+  "position": "SG",
+  "salary": 11000000,
+  "contractYears": 4,
+  "tradeEligible": false
+}, {
+  "id": "MiamiHeat_5",
+  "firstName": "Kelly",
+  "lastName": "Olynyk",
+  "position": "C",
+  "salary": 10607169,
+  "contractYears": 4,
+  "tradeEligible": false
+}, {
+  "id": "MiamiHeat_6",
+  "firstName": "Wayne",
+  "lastName": "Ellington",
+  "position": "SG",
+  "salary": 6270000,
+  "contractYears": 1,
+  "tradeEligible": true
+}, {
+  "id": "MiamiHeat_7",
+  "firstName": "Tyler",
+  "lastName": "Johnson",
+  "position": "SG",
+  "salary": 5881260,
+  "contractYears": 3,
+  "tradeEligible": true
+}, {
+  "id": "MiamiHeat_8",
+  "firstName": "Justise",
+  "lastName": "Winslow",
+  "position": "SF",
+  "salary": 2705040,
+  "contractYears": 2,
+  "tradeEligible": true
+}, {
+  "id": "MiamiHeat_9",
+  "firstName": "Bam",
+  "lastName": "Adebayo",
+  "position": "PF",
+  "salary": 2490360,
+  "contractYears": 4,
+  "tradeEligible": true
+}, {
+  "id": "MiamiHeat_10",
+  "firstName": "Josh",
+  "lastName": "Richardson",
+  "position": "SG",
+  "salary": 1471382,
+  "contractYears": 1,
+  "tradeEligible": true
+}, {
+  "id": "MiamiHeat_11",
+  "firstName": "Udons",
+  "lastName": "Haslem",
+  "position": "PF",
+  "salary": 1471382,
+  "contractYears": 1,
+  "tradeEligible": false
+}, {
+  "id": "MiamiHeat_12",
+  "firstName": "Okaro",
+  "lastName": "White",
+  "position": "PF",
+  "salary": 1312611,
+  "contractYears": 1,
+  "tradeEligible": true
+}, {
+  "id": "MiamiHeat_14",
+  "firstName": "Rodney",
+  "lastName": "McGruder",
+  "position": "SG",
+  "salary": 1312611,
+  "contractYears": 2,
+  "tradeEligible": true
+}, {
+  "id": "MiamiHeat_15",
+  "firstName": "AJ",
+  "lastName": "Hammons",
+  "position": "C",
+  "salary": 1312611,
+  "contractYears": 2,
+  "tradeEligible": true
+}, {
+  "id": "MiamiHeat_16",
+  "firstName": "Matt",
+  "lastName": "Williams",
+  "position": "SG",
+  "salary": 815615,
+  "contractYears": 2,
+  "tradeEligible": false
+}];
+
+export const MilwaukeeBucks = [{
+  "id": "MilwaukeeBucks_1",
+  "firstName": "Giannis",
+  "lastName": "Antetokounmpo",
+  "position": "SF",
+  "salary": 22471910,
+  "contractYears": 4,
+  "tradeEligible": true
+}, {
+  "id": "MilwaukeeBucks_2",
+  "firstName": "Greg",
+  "lastName": "Monroe",
+  "position": "C",
+  "salary": 17884176,
+  "contractYears": 1,
+  "tradeEligible": true
+}, {
+  "id": "MilwaukeeBucks_3",
+  "firstName": "Khris",
+  "lastName": "Middleton",
+  "position": "SG",
+  "salary": 14100000,
+  "contractYears": 3,
+  "tradeEligible": true
+}, {
+  "id": "MilwaukeeBucks_4",
+  "firstName": "John",
+  "lastName": "Henson",
+  "position": "SF",
+  "salary": 11422536,
+  "contractYears": 3,
+  "tradeEligible": true
+}, {
+  "id": "MilwaukeeBucks_5",
+  "firstName": "Mirza",
+  "lastName": "Teletovic",
+  "position": "PF",
+  "salary": 10500000,
+  "contractYears": 2,
+  "tradeEligible": true
+}, {
+  "id": "MilwaukeeBucks_6",
+  "firstName": "Tony",
+  "lastName": "Snell",
+  "position": "SF",
+  "salary": 9887640,
+  "contractYears": 4,
+  "tradeEligible": false
+}, {
+  "id": "MilwaukeeBucks_7",
+  "firstName": "Matthew",
+  "lastName": "Dellavedova",
+  "position": "PG",
+  "salary": 9607500,
+  "contractYears": 3,
+  "tradeEligible": true
+}, {
+  "id": "MilwaukeeBucks_8",
+  "firstName": "Jabari",
+  "lastName": "Parker",
+  "position": "PF",
+  "salary": 6782392,
+  "contractYears": 1,
+  "tradeEligible": true
+}, {
+  "id": "MilwaukeeBucks_9",
+  "firstName": "Spencer",
+  "lastName": "Hawes",
+  "position": "PF",
+  "salary": 6061175,
+  "contractYears": 1,
+  "tradeEligible": true
+}, {
+  "id": "MilwaukeeBucks_10",
+  "firstName": "Thon",
+  "lastName": "Maker",
+  "position": "PF",
+  "salary": 2684160,
+  "contractYears": 3,
+  "tradeEligible": true
+}, {
+  "id": "MilwaukeeBucks_11",
+  "firstName": "D.J.",
+  "lastName": "Wilson",
+  "position": "PF",
+  "salary": 2135040,
+  "contractYears": 4,
+  "tradeEligible": true
+}, {
+  "id": "MilwaukeeBucks_12",
+  "firstName": "Rashad",
+  "lastName": "Vaughn",
+  "position": "SG",
+  "salary": 1889040,
+  "contractYears": 2,
+  "tradeEligible": true
+}, {
+  "id": "MilwaukeeBucks_14",
+  "firstName": "Gary",
+  "lastName": "Payton II",
+  "position": "PG",
+  "salary": 1312611,
+  "contractYears": 1,
+  "tradeEligible": false
+}, {
+  "id": "MilwaukeeBucks_15",
+  "firstName": "Malcolm",
+  "lastName": "Brogdon",
+  "position": "PG",
+  "salary": 1312611,
+  "contractYears": 2,
+  "tradeEligible": true
+}, {
+  "id": "MilwaukeeBucks_16",
+  "firstName": "JeQuan",
+  "lastName": "Lewis",
+  "position": "SG",
+  "salary": 815615,
+  "contractYears": 1,
+  "tradeEligible": false
+}, {
+  "id": "MilwaukeeBucks_17",
+  "firstName": "Sterling",
+  "lastName": "Brown",
+  "position": "SG",
+  "salary": 815615,
+  "contractYears": 3,
+  "tradeEligible": true
+}];
+
+export const MinnesotaTimberwolves = [{
+  "id": "MinnesotaTimberwolves_1",
+  "firstName": "Dwight",
+  "lastName": "Howard",
+  "position": "C",
+  "salary": 23500000,
+  "contractYears": 2,
+  "tradeEligible": true
+}, {
+  "id": "MinnesotaTimberwolves_2",
+  "firstName": "Nicholas",
+  "lastName": "Batum",
+  "position": "SG",
+  "salary": 22434783,
+  "contractYears": 4,
+  "tradeEligible": true
+}, {
+  "id": "MinnesotaTimberwolves_3",
+  "firstName": "Marvin",
+  "lastName": "Williams",
+  "position": "PF",
+  "salary": 13168750,
+  "contractYears": 3,
+  "tradeEligible": true
+}, {
+  "id": "MinnesotaTimberwolves_4",
+  "firstName": "Michael",
+  "lastName": "Kidd-Gilchrist",
+  "position": "SF",
+  "salary": 13000000,
+  "contractYears": 3,
+  "tradeEligible": true
+}, {
+  "id": "MinnesotaTimberwolves_5",
+  "firstName": "Cody",
+  "lastName": "Zeller",
+  "position": "C",
+  "salary": 12584270,
+  "contractYears": 4,
+  "tradeEligible": true
+}, {
+  "id": "MinnesotaTimberwolves_6",
+  "firstName": "Kemba",
+  "lastName": "Walker",
+  "position": "PG",
+  "salary": 12000000,
+  "contractYears": 2,
+  "tradeEligible": true
+}, {
+  "id": "MinnesotaTimberwolves_7",
+  "firstName": "Jeremy",
+  "lastName": "Lamb",
+  "position": "SG",
+  "salary": 7000000,
+  "contractYears": 2,
+  "tradeEligible": true
+}, {
+  "id": "MinnesotaTimberwolves_8",
+  "firstName": "Malik",
+  "lastName": "Monk",
+  "position": "SG",
+  "salary": 2904480,
+  "contractYears": 4,
+  "tradeEligible": true
+}, {
+  "id": "MinnesotaTimberwolves_9",
+  "firstName": "Frank",
+  "lastName": "Kaminsky",
+  "position": "C",
+  "salary": 2847600,
+  "contractYears": 2,
+  "tradeEligible": true
+}, {
+  "id": "MinnesotaTimberwolves_10",
+  "firstName": "Michael",
+  "lastName": "Carter-Williams",
+  "position": "PG",
+  "salary": 2700000,
+  "contractYears": 1,
+  "tradeEligible": false
+}, {
+  "id": "MinnesotaTimberwolves_11",
+  "firstName": "Johnny",
+  "lastName": "O'Bryant",
+  "position": "PF",
+  "salary": 1524305,
+  "contractYears": 1,
+  "tradeEligible": true
+}, {
+  "id": "MinnesotaTimberwolves_12",
+  "firstName": "Treveon",
+  "lastName": "Graham",
+  "position": "SG",
+  "salary": 1312611,
+  "contractYears": 1,
+  "tradeEligible": true
+}, {
+  "id": "MinnesotaTimberwolves_14",
+  "firstName": "T.J.",
+  "lastName": "Williams",
+  "position": "PG",
+  "salary": 815615,
+  "contractYears": 1,
+  "tradeEligible": false
+}, {
+  "id": "MinnesotaTimberwolves_15",
+  "firstName": "Isaiah",
+  "lastName": "Hicks",
+  "position": "PF",
+  "salary": 815615,
+  "contractYears": 1,
+  "tradeEligible": false
+}, {
+  "id": "MinnesotaTimberwolves_16",
+  "firstName": "Dwayne",
+  "lastName": "Bacon",
+  "position": "SG",
+  "salary": 815615,
+  "contractYears": 3,
+  "tradeEligible": true
+}];
+
+export const NewOrleansPelicans = [{
+  "id": "NewOrleansPelicans_1",
+  "firstName": "Dwight",
+  "lastName": "Howard",
+  "position": "C",
+  "salary": 23500000,
+  "contractYears": 2,
+  "tradeEligible": true
+}, {
+  "id": "NewOrleansPelicans_2",
+  "firstName": "Nicholas",
+  "lastName": "Batum",
+  "position": "SG",
+  "salary": 22434783,
+  "contractYears": 4,
+  "tradeEligible": true
+}, {
+  "id": "NewOrleansPelicans_3",
+  "firstName": "Marvin",
+  "lastName": "Williams",
+  "position": "PF",
+  "salary": 13168750,
+  "contractYears": 3,
+  "tradeEligible": true
+}, {
+  "id": "NewOrleansPelicans_4",
+  "firstName": "Michael",
+  "lastName": "Kidd-Gilchrist",
+  "position": "SF",
+  "salary": 13000000,
+  "contractYears": 3,
+  "tradeEligible": true
+}, {
+  "id": "NewOrleansPelicans_5",
+  "firstName": "Cody",
+  "lastName": "Zeller",
+  "position": "C",
+  "salary": 12584270,
+  "contractYears": 4,
+  "tradeEligible": true
+}, {
+  "id": "NewOrleansPelicans_6",
+  "firstName": "Kemba",
+  "lastName": "Walker",
+  "position": "PG",
+  "salary": 12000000,
+  "contractYears": 2,
+  "tradeEligible": true
+}, {
+  "id": "NewOrleansPelicans_7",
+  "firstName": "Jeremy",
+  "lastName": "Lamb",
+  "position": "SG",
+  "salary": 7000000,
+  "contractYears": 2,
+  "tradeEligible": true
+}, {
+  "id": "NewOrleansPelicans_8",
+  "firstName": "Malik",
+  "lastName": "Monk",
+  "position": "SG",
+  "salary": 2904480,
+  "contractYears": 4,
+  "tradeEligible": true
+}, {
+  "id": "NewOrleansPelicans_9",
+  "firstName": "Frank",
+  "lastName": "Kaminsky",
+  "position": "C",
+  "salary": 2847600,
+  "contractYears": 2,
+  "tradeEligible": true
+}, {
+  "id": "NewOrleansPelicans_10",
+  "firstName": "Michael",
+  "lastName": "Carter-Williams",
+  "position": "PG",
+  "salary": 2700000,
+  "contractYears": 1,
+  "tradeEligible": false
+}, {
+  "id": "NewOrleansPelicans_11",
+  "firstName": "Johnny",
+  "lastName": "O'Bryant",
+  "position": "PF",
+  "salary": 1524305,
+  "contractYears": 1,
+  "tradeEligible": true
+}, {
+  "id": "NewOrleansPelicans_12",
+  "firstName": "Treveon",
+  "lastName": "Graham",
+  "position": "SG",
+  "salary": 1312611,
+  "contractYears": 1,
+  "tradeEligible": true
+}, {
+  "id": "NewOrleansPelicans_14",
+  "firstName": "T.J.",
+  "lastName": "Williams",
+  "position": "PG",
+  "salary": 815615,
+  "contractYears": 1,
+  "tradeEligible": false
+}, {
+  "id": "NewOrleansPelicans_15",
+  "firstName": "Isaiah",
+  "lastName": "Hicks",
+  "position": "PF",
+  "salary": 815615,
+  "contractYears": 1,
+  "tradeEligible": false
+}, {
+  "id": "NewOrleansPelicans_16",
+  "firstName": "Dwayne",
+  "lastName": "Bacon",
+  "position": "SG",
+  "salary": 815615,
+  "contractYears": 3,
+  "tradeEligible": true
+}];
+
+export const NewYorkKnicks = [{
+  "id": "NewYorkKnicks_1",
+  "firstName": "Carmelo",
+  "lastName": "Anthony",
+  "position": "SF",
+  "salary": 26243760,
+  "contractYears": 2,
+  "tradeEligible": true
+}, {
+  "id": "NewYorkKnicks_2",
+  "firstName": "Joakim",
+  "lastName": "Noah",
+  "position": "C",
+  "salary": 17765000,
+  "contractYears": 3,
+  "tradeEligible": true
+}, {
+  "id": "NewYorkKnicks_3",
+  "firstName": "Tim",
+  "lastName": "Hardaway Jr.",
+  "position": "SG",
+  "salary": 16500000,
+  "contractYears": 4,
+  "tradeEligible": false
+}, {
+  "id": "NewYorkKnicks_4",
+  "firstName": "Courtney",
+  "lastName": "Lee",
+  "position": "SG",
+  "salary": 11747890,
+  "contractYears": 3,
+  "tradeEligible": true
+}, {
+  "id": "NewYorkKnicks_5",
+  "firstName": "Lance",
+  "lastName": "Thomas",
+  "position": "SF",
+  "salary": 6655325,
+  "contractYears": 3,
+  "tradeEligible": true
+}, {
+  "id": "NewYorkKnicks_6",
+  "firstName": "Kristpas",
+  "lastName": "Porzingis",
+  "position": "PF",
+  "salary": 4503600,
+  "contractYears": 2,
+  "tradeEligible": true
+}, {
+  "id": "NewYorkKnicks_7",
+  "firstName": "Kyle",
+  "lastName": "O'Quinn",
+  "position": "C",
+  "salary": 4087500,
+  "contractYears": 2,
+  "tradeEligible": true
+}, {
+  "id": "NewYorkKnicks_8",
+  "firstName": "Frank",
+  "lastName": "Ntilikina",
+  "position": "PG",
+  "salary": 3501120,
+  "contractYears": 4,
+  "tradeEligible": true
+}, {
+  "id": "NewYorkKnicks_9",
+  "firstName": "Mindaugas",
+  "lastName": "Kuzminskas",
+  "position": "PF",
+  "salary": 3025035,
+  "contractYears": 1,
+  "tradeEligible": true
+}, {
+  "id": "NewYorkKnicks_10",
+  "firstName": "Wily",
+  "lastName": "Hernangomez",
+  "position": "C",
+  "salary": 1435750,
+  "contractYears": 2,
+  "tradeEligible": true
+}, {
+  "id": "NewYorkKnicks_11",
+  "firstName": "Derrick",
+  "lastName": "Rose",
+  "position": "PG",
+  "salary": 1471382,
+  "contractYears": 1,
+  "tradeEligible": true
+}, {
+  "id": "NewYorkKnicks_12",
+  "firstName": "Chasson",
+  "lastName": "Randle",
+  "position": "PG",
+  "salary": 1312611,
+  "contractYears": 2,
+  "tradeEligible": true
+}];
+
+export const OklahomaCityThunder = [{
+  "id": "OklahomaCityThunder_1",
+  "firstName": "Dwight",
+  "lastName": "Howard",
+  "position": "C",
+  "salary": 23500000,
+  "contractYears": 2,
+  "tradeEligible": true
+}, {
+  "id": "OklahomaCityThunder_2",
+  "firstName": "Nicholas",
+  "lastName": "Batum",
+  "position": "SG",
+  "salary": 22434783,
+  "contractYears": 4,
+  "tradeEligible": true
+}, {
+  "id": "OklahomaCityThunder_3",
+  "firstName": "Marvin",
+  "lastName": "Williams",
+  "position": "PF",
+  "salary": 13168750,
+  "contractYears": 3,
+  "tradeEligible": true
+}, {
+  "id": "OklahomaCityThunder_4",
+  "firstName": "Michael",
+  "lastName": "Kidd-Gilchrist",
+  "position": "SF",
+  "salary": 13000000,
+  "contractYears": 3,
+  "tradeEligible": true
+}, {
+  "id": "OklahomaCityThunder_5",
+  "firstName": "Cody",
+  "lastName": "Zeller",
+  "position": "C",
+  "salary": 12584270,
+  "contractYears": 4,
+  "tradeEligible": true
+}, {
+  "id": "OklahomaCityThunder_6",
+  "firstName": "Kemba",
+  "lastName": "Walker",
+  "position": "PG",
+  "salary": 12000000,
+  "contractYears": 2,
+  "tradeEligible": true
+}, {
+  "id": "OklahomaCityThunder_7",
+  "firstName": "Jeremy",
+  "lastName": "Lamb",
+  "position": "SG",
+  "salary": 7000000,
+  "contractYears": 2,
+  "tradeEligible": true
+}, {
+  "id": "OklahomaCityThunder_8",
+  "firstName": "Malik",
+  "lastName": "Monk",
+  "position": "SG",
+  "salary": 2904480,
+  "contractYears": 4,
+  "tradeEligible": true
+}, {
+  "id": "OklahomaCityThunder_9",
+  "firstName": "Frank",
+  "lastName": "Kaminsky",
+  "position": "C",
+  "salary": 2847600,
+  "contractYears": 2,
+  "tradeEligible": true
+}, {
+  "id": "OklahomaCityThunder_10",
+  "firstName": "Michael",
+  "lastName": "Carter-Williams",
+  "position": "PG",
+  "salary": 2700000,
+  "contractYears": 1,
+  "tradeEligible": false
+}, {
+  "id": "OklahomaCityThunder_11",
+  "firstName": "Johnny",
+  "lastName": "O'Bryant",
+  "position": "PF",
+  "salary": 1524305,
+  "contractYears": 1,
+  "tradeEligible": true
+}, {
+  "id": "OklahomaCityThunder_12",
+  "firstName": "Treveon",
+  "lastName": "Graham",
+  "position": "SG",
+  "salary": 1312611,
+  "contractYears": 1,
+  "tradeEligible": true
+}, {
+  "id": "OklahomaCityThunder_14",
+  "firstName": "T.J.",
+  "lastName": "Williams",
+  "position": "PG",
+  "salary": 815615,
+  "contractYears": 1,
+  "tradeEligible": false
+}, {
+  "id": "OklahomaCityThunder_15",
+  "firstName": "Isaiah",
+  "lastName": "Hicks",
+  "position": "PF",
+  "salary": 815615,
+  "contractYears": 1,
+  "tradeEligible": false
+}, {
+  "id": "OklahomaCityThunder_16",
+  "firstName": "Dwayne",
+  "lastName": "Bacon",
+  "position": "SG",
+  "salary": 815615,
+  "contractYears": 3,
+  "tradeEligible": true
+}];
+
+export const OrlandoMagic = [{
+  "id": "OrlandoMagic_1",
+  "firstName": "Evan",
+  "lastName": "Fournier",
+  "position": "SG",
+  "salary": 17000000,
+  "contractYears": 4,
+  "tradeEligible": true
+}, {
+  "id": "OrlandoMagic_2",
+  "firstName": "Bismack",
+  "lastName": "Biyombo",
+  "position": "C",
+  "salary": 17000000,
+  "contractYears": 3,
+  "tradeEligible": true
+}, {
+  "id": "OrlandoMagic_3",
+  "firstName": "Nikola",
+  "lastName": "Vucevic",
+  "position": "C",
+  "salary": 12250000,
+  "contractYears": 2,
+  "tradeEligible": true
+}, {
+  "id": "OrlandoMagic_4",
+  "firstName": "Terrence",
+  "lastName": "Ross",
+  "position": "SF",
+  "salary": 10500000,
+  "contractYears": 2,
+  "tradeEligible": true
+}, {
+  "id": "OrlandoMagic_5",
+  "firstName": "D.J.",
+  "lastName": "Augustin",
+  "position": "PG",
+  "salary": 7250000,
+  "contractYears": 3,
+  "tradeEligible": true
+}, {
+  "id": "OrlandoMagic_6",
+  "firstName": "Jonathon",
+  "lastName": "Simmons",
+  "position": "SF",
+  "salary": 6300000,
+  "contractYears": 3,
+  "tradeEligible": false
+}, {
+  "id": "OrlandoMagic_7",
+  "firstName": "Shelvin",
+  "lastName": "Mack",
+  "position": "PG",
+  "salary": 6000000,
+  "contractYears": 2,
+  "tradeEligible": true
+}, {
+  "id": "OrlandoMagic_8",
+  "firstName": "Aaron",
+  "lastName": "Gordon",
+  "position": "PF",
+  "salary": 5504420,
+  "contractYears": 1,
+  "tradeEligible": true
+}, {
+  "id": "OrlandoMagic_9",
+  "firstName": "Jonathan",
+  "lastName": "Isaac",
+  "position": "SF",
+  "salary": 4186320,
+  "contractYears": 4,
+  "tradeEligible": true
+}, {
+  "id": "OrlandoMagic_10",
+  "firstName": "Mario",
+  "lastName": "Hezonja",
+  "position": "SG",
+  "salary": 3909840,
+  "contractYears": 3,
+  "tradeEligible": false
+}, {
+  "id": "OrlandoMagic_11",
+  "firstName": "Elfrid",
+  "lastName": "Payton",
+  "position": "PG",
+  "salary": 3332340,
+  "contractYears": 1,
+  "tradeEligible": true
+}, {
+  "id": "OrlandoMagic_12",
+  "firstName": "Marresse",
+  "lastName": "Speights",
+  "position": "PF",
+  "salary": 1471382,
+  "contractYears": 1,
+  "tradeEligible": false
+}, {
+  "id": "OrlandoMagic_14",
+  "firstName": "Aaron",
+  "lastName": "Afflalo",
+  "position": "SG",
+  "salary": 1471382,
+  "contractYears": 1,
+  "tradeEligible": false
+}, {
+  "id": "OrlandoMagic_15",
+  "firstName": "Wesley",
+  "lastName": "Iwundu",
+  "position": "SG",
+  "salary": 1050000,
+  "contractYears": 3,
+  "tradeEligible": false
+}, {
+  "id": "OrlandoMagic_16",
+  "firstName": "Khem",
+  "lastName": "Birch",
+  "position": "C",
+  "salary": 815615,
+  "contractYears": 2,
+  "tradeEligible": false
+}];
+
+export const Philadelphia76ers = [{
+  "id": "Philadelphia76ers_1",
+  "firstName": "JJ",
+  "lastName": "Redick",
+  "position": "SG",
+  "salary": 23000000,
+  "contractYears": 1,
+  "tradeEligible": false
+}, {
+  "id": "Philadelphia76ers_2",
+  "firstName": "Amir",
+  "lastName": "Johnson",
+  "position": "PF",
+  "salary": 11000000,
+  "contractYears": 1,
+  "tradeEligible": false
+}, {
+  "id": "Philadelphia76ers_3",
+  "firstName": "Jerryd",
+  "lastName": "Bayless",
+  "position": "PG",
+  "salary": 9000000,
+  "contractYears": 2,
+  "tradeEligible": true
+}, {
+  "id": "Philadelphia76ers_4",
+  "firstName": "Markelle",
+  "lastName": "Fulz",
+  "position": "PG",
+  "salary": 7026240,
+  "contractYears": 4,
+  "tradeEligible": true
+}, {
+  "id": "Philadelphia76ers_5",
+  "firstName": "Ben",
+  "lastName": "Simmons",
+  "position": "PF",
+  "salary": 6168840,
+  "contractYears": 3,
+  "tradeEligible": true
+}, {
+  "id": "Philadelphia76ers_6",
+  "firstName": "Joel",
+  "lastName": "Embid",
+  "position": "C",
+  "salary": 6100266,
+  "contractYears": 1,
+  "tradeEligible": true
+}, {
+  "id": "Philadelphia76ers_7",
+  "firstName": "Jahlil",
+  "lastName": "Okafor",
+  "position": "C",
+  "salary": 4995120,
+  "contractYears": 2,
+  "tradeEligible": true
+}, {
+  "id": "Philadelphia76ers_8",
+  "firstName": "Nik",
+  "lastName": "Stauskas",
+  "position": "SG",
+  "salary": 3807147,
+  "contractYears": 1,
+  "tradeEligible": true
+}, {
+  "id": "Philadelphia76ers_9",
+  "firstName": "Dario",
+  "lastName": "Saric",
+  "position": "SF",
+  "salary": 2422560,
+  "contractYears": 3,
+  "tradeEligible": true
+}, {
+  "id": "Philadelphia76ers_10",
+  "firstName": "Justin",
+  "lastName": "Anderson",
+  "position": "PG",
+  "salary": 1579440,
+  "contractYears": 2,
+  "tradeEligible": false
+}, {
+  "id": "Philadelphia76ers_11",
+  "firstName": "Robert",
+  "lastName": "Covington",
+  "position": "SF",
+  "salary": 1577230,
+  "contractYears": 1,
+  "tradeEligible": true
+}, {
+  "id": "Philadelphia76ers_12",
+  "firstName": "T.J.",
+  "lastName": "McConnell",
+  "position": "PF",
+  "salary": 1471382,
+  "contractYears": 2,
+  "tradeEligible": true
+}, {
+  "id": "Philadelphia76ers_14",
+  "firstName": "Richaun",
+  "lastName": "Holmes",
+  "position": "PF",
+  "salary": 1471382,
+  "contractYears": 2,
+  "tradeEligible": true
+}, {
+  "id": "Philadelphia76ers_15",
+  "firstName": "Furkan",
+  "lastName": "Korkmaz",
+  "position": "SG",
+  "salary": 1465920,
+  "contractYears": 4,
+  "tradeEligible": true
+}, {
+  "id": "Philadelphia76ers_16",
+  "firstName": "Timothe",
+  "lastName": "Luwawu-Cabarrot",
+  "position": "SG",
+  "salary": 1386600,
+  "contractYears": 3,
+  "tradeEligible": true
+}];
+
+export const PhoenixSuns = [{
+  "id": "PhoenixSuns_1",
+  "firstName": "Eric",
+  "lastName": "Bledsoe",
+  "position": "PG",
+  "salary": 14500000,
+  "contractYears": 2,
+  "tradeEligible": true
+}, {
+  "id": "PhoenixSuns_2",
+  "firstName": "Brandon",
+  "lastName": "Knight",
+  "position": "PG",
+  "salary": 13618750,
+  "contractYears": 3,
+  "tradeEligible": true
+}, {
+  "id": "PhoenixSuns_3",
+  "firstName": "Tyson",
+  "lastName": "Chandler",
+  "position": "C",
+  "salary": 13000000,
+  "contractYears": 2,
+  "tradeEligible": true
+}, {
+  "id": "PhoenixSuns_4",
+  "firstName": "Jared",
+  "lastName": "Dudley",
+  "position": "SF",
+  "salary": 10000000,
+  "contractYears": 2,
+  "tradeEligible": true
+}, {
+  "id": "PhoenixSuns_5",
+  "firstName": "Alan",
+  "lastName": "Williams",
+  "position": "C",
+  "salary": 6000000,
+  "contractYears": 3,
+  "tradeEligible": false
+}, {
+  "id": "PhoenixSuns_6",
+  "firstName": "Josh",
+  "lastName": "Jackson",
+  "position": "SF",
+  "salary": 5090040,
+  "contractYears": 4,
+  "tradeEligible": true
+}, {
+  "id": "PhoenixSuns_7",
+  "firstName": "Dragan",
+  "lastName": "Bender",
+  "position": "PF",
+  "salary": 4468800,
+  "contractYears": 3,
+  "tradeEligible": true
+}, {
+  "id": "PhoenixSuns_8",
+  "firstName": "TJ",
+  "lastName": "Warren",
+  "position": "SF",
+  "salary": 3152931,
+  "contractYears": 1,
+  "tradeEligible": true
+}, {
+  "id": "PhoenixSuns_9",
+  "firstName": "Marquese",
+  "lastName": "Chriss",
+  "position": "PF",
+  "salary": 3073800,
+  "contractYears": 3,
+  "tradeEligible": true
+}, {
+  "id": "PhoenixSuns_10",
+  "firstName": "Devin",
+  "lastName": "Booker",
+  "position": "SG",
+  "salary": 2319360,
+  "contractYears": 2,
+  "tradeEligible": true
+}, {
+  "id": "PhoenixSuns_11",
+  "firstName": "Elijah",
+  "lastName": "Millsap",
+  "position": "SG",
+  "salary": 1524305,
+  "contractYears": 1,
+  "tradeEligible": true
+}, {
+  "id": "PhoenixSuns_12",
+  "firstName": "Tyler",
+  "lastName": "Ulis",
+  "position": "PG",
+  "salary": 1312611,
+  "contractYears": 3,
+  "tradeEligible": false
+}, {
+  "id": "PhoenixSuns_14",
+  "firstName": "Derrick",
+  "lastName": "Jones Jr.",
+  "position": "SF",
+  "salary": 1312611,
+  "contractYears": 3,
+  "tradeEligible": false
+}, {
+  "id": "PhoenixSuns_15",
+  "firstName": "Davon",
+  "lastName": "Reed",
+  "position": "SG",
+  "salary": 815615,
+  "contractYears": 4,
+  "tradeEligible": false
+}];
+
+export const PortlandTrailBlazers = [{
+  "id": "PortlandTrailBlazers_1",
+  "firstName": "Dwight",
+  "lastName": "Howard",
+  "position": "C",
+  "salary": 23500000,
+  "contractYears": 2,
+  "tradeEligible": true
+}, {
+  "id": "PortlandTrailBlazers_2",
+  "firstName": "Nicholas",
+  "lastName": "Batum",
+  "position": "SG",
+  "salary": 22434783,
+  "contractYears": 4,
+  "tradeEligible": true
+}, {
+  "id": "PortlandTrailBlazers_3",
+  "firstName": "Marvin",
+  "lastName": "Williams",
+  "position": "PF",
+  "salary": 13168750,
+  "contractYears": 3,
+  "tradeEligible": true
+}, {
+  "id": "PortlandTrailBlazers_4",
+  "firstName": "Michael",
+  "lastName": "Kidd-Gilchrist",
+  "position": "SF",
+  "salary": 13000000,
+  "contractYears": 3,
+  "tradeEligible": true
+}, {
+  "id": "PortlandTrailBlazers_5",
+  "firstName": "Cody",
+  "lastName": "Zeller",
+  "position": "C",
+  "salary": 12584270,
+  "contractYears": 4,
+  "tradeEligible": true
+}, {
+  "id": "PortlandTrailBlazers_6",
+  "firstName": "Kemba",
+  "lastName": "Walker",
+  "position": "PG",
+  "salary": 12000000,
+  "contractYears": 2,
+  "tradeEligible": true
+}, {
+  "id": "PortlandTrailBlazers_7",
+  "firstName": "Jeremy",
+  "lastName": "Lamb",
+  "position": "SG",
+  "salary": 7000000,
+  "contractYears": 2,
+  "tradeEligible": true
+}, {
+  "id": "PortlandTrailBlazers_8",
+  "firstName": "Malik",
+  "lastName": "Monk",
+  "position": "SG",
+  "salary": 2904480,
+  "contractYears": 4,
+  "tradeEligible": true
+}, {
+  "id": "PortlandTrailBlazers_9",
+  "firstName": "Frank",
+  "lastName": "Kaminsky",
+  "position": "C",
+  "salary": 2847600,
+  "contractYears": 2,
+  "tradeEligible": true
+}, {
+  "id": "PortlandTrailBlazers_10",
+  "firstName": "Michael",
+  "lastName": "Carter-Williams",
+  "position": "PG",
+  "salary": 2700000,
+  "contractYears": 1,
+  "tradeEligible": false
+}, {
+  "id": "PortlandTrailBlazers_11",
+  "firstName": "Johnny",
+  "lastName": "O'Bryant",
+  "position": "PF",
+  "salary": 1524305,
+  "contractYears": 1,
+  "tradeEligible": true
+}, {
+  "id": "PortlandTrailBlazers_12",
+  "firstName": "Treveon",
+  "lastName": "Graham",
+  "position": "SG",
+  "salary": 1312611,
+  "contractYears": 1,
+  "tradeEligible": true
+}, {
+  "id": "PortlandTrailBlazers_14",
+  "firstName": "T.J.",
+  "lastName": "Williams",
+  "position": "PG",
+  "salary": 815615,
+  "contractYears": 1,
+  "tradeEligible": false
+}, {
+  "id": "PortlandTrailBlazers_15",
+  "firstName": "Isaiah",
+  "lastName": "Hicks",
+  "position": "PF",
+  "salary": 815615,
+  "contractYears": 1,
+  "tradeEligible": false
+}, {
+  "id": "PortlandTrailBlazers_16",
+  "firstName": "Dwayne",
+  "lastName": "Bacon",
+  "position": "SG",
+  "salary": 815615,
+  "contractYears": 3,
+  "tradeEligible": true
+}];
+
+export const SacramentoKings = [{
+  "id": "SacramentoKings_1",
+  "firstName": "Dwight",
+  "lastName": "Howard",
+  "position": "C",
+  "salary": 23500000,
+  "contractYears": 2,
+  "tradeEligible": true
+}, {
+  "id": "SacramentoKings_2",
+  "firstName": "Nicholas",
+  "lastName": "Batum",
+  "position": "SG",
+  "salary": 22434783,
+  "contractYears": 4,
+  "tradeEligible": true
+}, {
+  "id": "SacramentoKings_3",
+  "firstName": "Marvin",
+  "lastName": "Williams",
+  "position": "PF",
+  "salary": 13168750,
+  "contractYears": 3,
+  "tradeEligible": true
+}, {
+  "id": "SacramentoKings_4",
+  "firstName": "Michael",
+  "lastName": "Kidd-Gilchrist",
+  "position": "SF",
+  "salary": 13000000,
+  "contractYears": 3,
+  "tradeEligible": true
+}, {
+  "id": "SacramentoKings_5",
+  "firstName": "Cody",
+  "lastName": "Zeller",
+  "position": "C",
+  "salary": 12584270,
+  "contractYears": 4,
+  "tradeEligible": true
+}, {
+  "id": "SacramentoKings_6",
+  "firstName": "Kemba",
+  "lastName": "Walker",
+  "position": "PG",
+  "salary": 12000000,
+  "contractYears": 2,
+  "tradeEligible": true
+}, {
+  "id": "SacramentoKings_7",
+  "firstName": "Jeremy",
+  "lastName": "Lamb",
+  "position": "SG",
+  "salary": 7000000,
+  "contractYears": 2,
+  "tradeEligible": true
+}, {
+  "id": "SacramentoKings_8",
+  "firstName": "Malik",
+  "lastName": "Monk",
+  "position": "SG",
+  "salary": 2904480,
+  "contractYears": 4,
+  "tradeEligible": true
+}, {
+  "id": "SacramentoKings_9",
+  "firstName": "Frank",
+  "lastName": "Kaminsky",
+  "position": "C",
+  "salary": 2847600,
+  "contractYears": 2,
+  "tradeEligible": true
+}, {
+  "id": "SacramentoKings_10",
+  "firstName": "Michael",
+  "lastName": "Carter-Williams",
+  "position": "PG",
+  "salary": 2700000,
+  "contractYears": 1,
+  "tradeEligible": false
+}, {
+  "id": "SacramentoKings_11",
+  "firstName": "Johnny",
+  "lastName": "O'Bryant",
+  "position": "PF",
+  "salary": 1524305,
+  "contractYears": 1,
+  "tradeEligible": true
+}, {
+  "id": "SacramentoKings_12",
+  "firstName": "Treveon",
+  "lastName": "Graham",
+  "position": "SG",
+  "salary": 1312611,
+  "contractYears": 1,
+  "tradeEligible": true
+}, {
+  "id": "SacramentoKings_14",
+  "firstName": "T.J.",
+  "lastName": "Williams",
+  "position": "PG",
+  "salary": 815615,
+  "contractYears": 1,
+  "tradeEligible": false
+}, {
+  "id": "SacramentoKings_15",
+  "firstName": "Isaiah",
+  "lastName": "Hicks",
+  "position": "PF",
+  "salary": 815615,
+  "contractYears": 1,
+  "tradeEligible": false
+}, {
+  "id": "SacramentoKings_16",
+  "firstName": "Dwayne",
+  "lastName": "Bacon",
+  "position": "SG",
+  "salary": 815615,
+  "contractYears": 3,
+  "tradeEligible": true
+}];
+
+export const SanAntonioSpurs = [{
+  "id": "SanAntonioSpurs_1",
+  "firstName": "LaMarcus",
+  "lastName": "Aldridge",
+  "position": "PF",
+  "salary": 21461010,
+  "contractYears": 2,
+  "tradeEligible": true
+}, {
+  "id": "SanAntonioSpurs_2",
+  "firstName": "Kawhi",
+  "lastName": "Leonard",
+  "position": "SF",
+  "salary": 18868626,
+  "contractYears": 3,
+  "tradeEligible": true
+}, {
+  "id": "SanAntonioSpurs_3",
+  "firstName": "Pau",
+  "lastName": "Gasol",
+  "position": "C",
+  "salary": 16000000,
+  "contractYears": 3,
+  "tradeEligible": false
+}, {
+  "id": "SanAntonioSpurs_4",
+  "firstName": "Tony",
+  "lastName": "Parker",
+  "position": "PG",
+  "salary": 15453126,
+  "contractYears": 1,
+  "tradeEligible": true
+}, {
+  "id": "SanAntonioSpurs_5",
+  "firstName": "Patty",
+  "lastName": "Mills",
+  "position": "PG",
+  "salary": 11235955,
+  "contractYears": 4,
+  "tradeEligible": false
+}, {
+  "id": "SanAntonioSpurs_6",
+  "firstName": "Danny",
+  "lastName": "Green",
+  "position": "SG",
+  "salary": 10000000,
+  "contractYears": 2,
+  "tradeEligible": true
+}, {
+  "id": "SanAntonioSpurs_7",
+  "firstName": "Rudy",
+  "lastName": "Gay",
+  "position": "SF",
+  "salary": 8406000,
+  "contractYears": 2,
+  "tradeEligible": false
+}, {
+  "id": "SanAntonioSpurs_8",
+  "firstName": "Kyle",
+  "lastName": "Anderson",
+  "position": "SF",
+  "salary": 2151704,
+  "contractYears": 1,
+  "tradeEligible": true
+}, {
+  "id": "SanAntonioSpurs_9",
+  "firstName": "Joffrey",
+  "lastName": "Lauvergne",
+  "position": "C",
+  "salary": 1524305,
+  "contractYears": 2,
+  "tradeEligible": false
+}, {
+  "id": "SanAntonioSpurs_10",
+  "firstName": "Derrick",
+  "lastName": "White",
+  "position": "PG",
+  "salary": 1404600,
+  "contractYears": 4,
+  "tradeEligible": true
+}, {
+  "id": "SanAntonioSpurs_11",
+  "firstName": "Dejante",
+  "lastName": "Murray",
+  "position": "PG",
+  "salary": 1312611,
+  "contractYears": 3,
+  "tradeEligible": true
+}, {
+  "id": "SanAntonioSpurs_12",
+  "firstName": "Bryn",
+  "lastName": "Forbes",
+  "position": "SG",
+  "salary": 1312611,
+  "contractYears": 1,
+  "tradeEligible": true
+}, {
+  "id": "SanAntonioSpurs_13",
+  "firstName": "Davis",
+  "lastName": "Bertans",
+  "position": "SF",
+  "salary": 1312611,
+  "contractYears": 1,
+  "tradeEligible": true
+}, {
+  "id": "SanAntonioSpurs_14",
+  "firstName": "Brandon",
+  "lastName": "Paul",
+  "position": "SG",
+  "salary": 815615,
+  "contractYears": 2,
+  "tradeEligible": false
+}];
+
+export const TorontoRaptors = [{
+  "id": "TorontoRaptors_1",
+  "firstName": "Kyle",
+  "lastName": "Lowry",
+  "position": "PG",
+  "salary": 28703704,
+  "contractYears": 3,
+  "tradeEligible": true
+}, {
+  "id": "TorontoRaptors_2",
+  "firstName": "DeMar",
+  "lastName": "DeRozan",
+  "position": "SG",
+  "salary": 27739975,
+  "contractYears": 4,
+  "tradeEligible": true
+}, {
+  "id": "TorontoRaptors_3",
+  "firstName": "Serge",
+  "lastName": "Ibaka",
+  "position": "PF",
+  "salary": 20061729,
+  "contractYears": 3,
+  "tradeEligible": false
+}, {
+  "id": "TorontoRaptors_4",
+  "firstName": "Jonas",
+  "lastName": "Valanciunas",
+  "position": "C",
+  "salary": 15460675,
+  "contractYears": 3,
+  "tradeEligible": true
+}, {
+  "id": "TorontoRaptors_5",
+  "firstName": "CJ",
+  "lastName": "Miles",
+  "position": "SF",
+  "salary": 7936509,
+  "contractYears": 3,
+  "tradeEligible": true
+}, {
+  "id": "TorontoRaptors_6",
+  "firstName": "Lucas",
+  "lastName": "Nogueira",
+  "position": "C",
+  "salary": 2947305,
+  "contractYears": 1,
+  "tradeEligible": true
+}, {
+  "id": "TorontoRaptors_7",
+  "firstName": "Jakob",
+  "lastName": "Poeltl",
+  "position": "C",
+  "salary": 2825640,
+  "contractYears": 3,
+  "tradeEligible": true
+}, {
+  "id": "TorontoRaptors_8",
+  "firstName": "Bruno",
+  "lastName": "Caboclo",
+  "position": "SF",
+  "salary": 2451225,
+  "contractYears": 1,
+  "tradeEligible": true
+}, {
+  "id": "TorontoRaptors_9",
+  "firstName": "Delon",
+  "lastName": "Wright",
+  "position": "PG",
+  "salary": 1645200,
+  "contractYears": 2,
+  "tradeEligible": true
+}, {
+  "id": "TorontoRaptors_10",
+  "firstName": "OG",
+  "lastName": "Anunoby",
+  "position": "SF",
+  "salary": 1645200,
+  "contractYears": 4,
+  "tradeEligible": false
+}, {
+  "id": "TorontoRaptors_11",
+  "firstName": "Norm",
+  "lastName": "Powell",
+  "position": "SF",
+  "salary": 1471382,
+  "contractYears": 1,
+  "tradeEligible": true
+}, {
+  "id": "TorontoRaptors_12",
+  "firstName": "Fred",
+  "lastName": "VanVleet",
+  "position": "PG",
+  "salary": 1312611,
+  "contractYears": 1,
+  "tradeEligible": true
+}, {
+  "id": "TorontoRaptors_13",
+  "firstName": "Pascal",
+  "lastName": "Slakam",
+  "position": "PF",
+  "salary": 1312611,
+  "contractYears": 3,
+  "tradeEligible": true
+}, {
+  "id": "TorontoRaptors_13",
+  "firstName": "Kennedy",
+  "lastName": "Meeks",
+  "position": "C",
+  "salary": 815615,
+  "contractYears": 1,
+  "tradeEligible": false
+}];
+
+export const UtahJazz = [{
+  "id": "UtahJazz_1",
+  "firstName": "Dwight",
+  "lastName": "Howard",
+  "position": "C",
+  "salary": 23500000,
+  "contractYears": 2,
+  "tradeEligible": true
+}, {
+  "id": "UtahJazz_2",
+  "firstName": "Nicholas",
+  "lastName": "Batum",
+  "position": "SG",
+  "salary": 22434783,
+  "contractYears": 4,
+  "tradeEligible": true
+}, {
+  "id": "UtahJazz_3",
+  "firstName": "Marvin",
+  "lastName": "Williams",
+  "position": "PF",
+  "salary": 13168750,
+  "contractYears": 3,
+  "tradeEligible": true
+}, {
+  "id": "UtahJazz_4",
+  "firstName": "Michael",
+  "lastName": "Kidd-Gilchrist",
+  "position": "SF",
+  "salary": 13000000,
+  "contractYears": 3,
+  "tradeEligible": true
+}, {
+  "id": "UtahJazz_5",
+  "firstName": "Cody",
+  "lastName": "Zeller",
+  "position": "C",
+  "salary": 12584270,
+  "contractYears": 4,
+  "tradeEligible": true
+}, {
+  "id": "UtahJazz_6",
+  "firstName": "Kemba",
+  "lastName": "Walker",
+  "position": "PG",
+  "salary": 12000000,
+  "contractYears": 2,
+  "tradeEligible": true
+}, {
+  "id": "UtahJazz_7",
+  "firstName": "Jeremy",
+  "lastName": "Lamb",
+  "position": "SG",
+  "salary": 7000000,
+  "contractYears": 2,
+  "tradeEligible": true
+}, {
+  "id": "UtahJazz_8",
+  "firstName": "Malik",
+  "lastName": "Monk",
+  "position": "SG",
+  "salary": 2904480,
+  "contractYears": 4,
+  "tradeEligible": true
+}, {
+  "id": "UtahJazz_9",
+  "firstName": "Frank",
+  "lastName": "Kaminsky",
+  "position": "C",
+  "salary": 2847600,
+  "contractYears": 2,
+  "tradeEligible": true
+}, {
+  "id": "UtahJazz_10",
+  "firstName": "Michael",
+  "lastName": "Carter-Williams",
+  "position": "PG",
+  "salary": 2700000,
+  "contractYears": 1,
+  "tradeEligible": false
+}, {
+  "id": "UtahJazz_11",
+  "firstName": "Johnny",
+  "lastName": "O'Bryant",
+  "position": "PF",
+  "salary": 1524305,
+  "contractYears": 1,
+  "tradeEligible": true
+}, {
+  "id": "UtahJazz_12",
+  "firstName": "Treveon",
+  "lastName": "Graham",
+  "position": "SG",
+  "salary": 1312611,
+  "contractYears": 1,
+  "tradeEligible": true
+}, {
+  "id": "UtahJazz_14",
+  "firstName": "T.J.",
+  "lastName": "Williams",
+  "position": "PG",
+  "salary": 815615,
+  "contractYears": 1,
+  "tradeEligible": false
+}, {
+  "id": "UtahJazz_15",
+  "firstName": "Isaiah",
+  "lastName": "Hicks",
+  "position": "PF",
+  "salary": 815615,
+  "contractYears": 1,
+  "tradeEligible": false
+}, {
+  "id": "UtahJazz_16",
+  "firstName": "Dwayne",
+  "lastName": "Bacon",
+  "position": "SG",
+  "salary": 815615,
+  "contractYears": 3,
+  "tradeEligible": true
+}];
+
+export const WashingtonWizards = [{
+  "id": "WashingtonWizards_1",
+  "firstName": "Otto",
+  "lastName": "Porter Jr.",
+  "position": "SF",
+  "salary": 24773250,
+  "contractYears": 4,
+  "tradeEligible": false
+}, {
+  "id": "WashingtonWizards_2",
+  "firstName": "Bradley",
+  "lastName": "Beal",
+  "position": "SG",
+  "salary": 23775506,
+  "contractYears": 4,
+  "tradeEligible": true
+}, {
+  "id": "WashingtonWizards_3",
+  "firstName": "John",
+  "lastName": "Wall",
+  "position": "PG",
+  "salary": 18063850,
+  "contractYears": 6,
+  "tradeEligible": false
+}, {
+  "id": "WashingtonWizards_4",
+  "firstName": "Marcin",
+  "lastName": "Gortat",
+  "position": "C",
+  "salary": 12782609,
+  "contractYears": 2,
+  "tradeEligible": true
+}, {
+  "id": "WashingtonWizards_5",
+  "firstName": "Markieff",
+  "lastName": "Morris",
+  "position": "PF",
+  "salary": 8000000,
+  "contractYears": 2,
+  "tradeEligible": true
+}, {
+  "id": "WashingtonWizards_6",
+  "firstName": "Jason",
+  "lastName": "Smith",
+  "position": "PF",
+  "salary": 5225000,
+  "contractYears": 2,
+  "tradeEligible": true
+}, {
+  "id": "WashingtonWizards_7",
+  "firstName": "Jodie",
+  "lastName": "Meeks",
+  "position": "SG",
+  "salary": 3290000,
+  "contractYears": 2,
+  "tradeEligible": true
+}, {
+  "id": "WashingtonWizards_8",
+  "firstName": "Tomas",
+  "lastName": "Satoransky",
+  "position": "SG",
+  "salary": 3000000,
+  "contractYears": 2,
+  "tradeEligible": true
+}, {
+  "id": "WashingtonWizards_9",
+  "firstName": "Kelly",
+  "lastName": "Oubre Jr",
+  "position": "SF",
+  "salary": 2093040,
+  "contractYears": 2,
+  "tradeEligible": true
+}, {
+  "id": "WashingtonWizards_10",
+  "firstName": "Tim",
+  "lastName": "Frazier",
+  "position": "PG",
+  "salary": 2000000,
+  "contractYears": 1,
+  "tradeEligible": true
+}, {
+  "id": "WashingtonWizards_11",
+  "firstName": "Ian",
+  "lastName": "Mahinmi",
+  "position": "C",
+  "salary": 16000000,
+  "contractYears": 3,
+  "tradeEligible": true
+}, {
+  "id": "WashingtonWizards_12",
+  "firstName": "Mike",
+  "lastName": "Scott",
+  "position": "PF",
+  "salary": 1471382,
+  "contractYears": 1,
+  "tradeEligible": false
+}, {
+  "id": "WashingtonWizards_14",
+  "firstName": "Chris",
+  "lastName": "McCullough",
+  "position": "PF",
+  "salary": 1471382,
+  "contractYears": 2,
+  "tradeEligible": true
+}, {
+  "id": "WashingtonWizards_15",
+  "firstName": "Daniel",
+  "lastName": "Ochefu",
+  "position": "PF",
+  "salary": 1312611,
+  "contractYears": 2,
+  "tradeEligible": true
+}, {
+  "id": "WashingtonWizards_16",
+  "firstName": "Sheldon",
+  "lastName": "Mac",
+  "position": "SG",
+  "salary": 1312611,
+  "contractYears": 1,
+  "tradeEligible": true
+}];

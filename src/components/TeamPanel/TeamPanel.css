@@ -1,0 +1,27 @@
+.team-panel {
+	width: 250px;
+	display: inline-block;
+	height: 100%;
+	overflow: hidden;
+	min-height: 50px;
+	background-color: #f8f8f8;
+	border: 1px solid #d8d8d8;
+	border-radius: 1px;
+	padding-bottom: 0px;
+	margin-right: 10px;
+	margin-top: 40px;
+	vertical-align: top;
+}
+
+.team-panel-info {
+	border-bottom: 1px solid #ccc;
+	padding: 10px 10px;
+}
+
+.AtlantaHawks {
+	background-color: rgba(225,58,62, 0.8);
+}
+
+.SanAntonioSpurs {
+	background-color: rgba(186,195,201, 0.8);
+}
