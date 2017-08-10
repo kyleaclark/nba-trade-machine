@@ -109,6 +109,7 @@ class Home extends Component {
             roster={team.roster}
             capRoom={team.capRoom}
             taxRoom={team.taxRoom}
+            colors={team.colors}
             inboundSalary={team.inboundSalary}
             outboundSalary={team.outboundSalary}
             moveTeam={this.moveTeam}

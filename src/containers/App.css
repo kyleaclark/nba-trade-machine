@@ -2,6 +2,7 @@
 
 .app {
   padding: 5px;
+  overflow-y: hidden;
   text-align: center;
 }
 

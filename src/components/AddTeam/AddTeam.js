@@ -80,7 +80,7 @@ export default class AddTeam extends Component {
       <div id="area">
         <Dropdown overlay={this._renderAddTeamOverlay()}>
           <Button style={{ marginLeft: 8 }} size='large'>
-            Add Team <Icon type="down" />
+            Add Trade Partner <Icon type="down" />
           </Button>
         </Dropdown>
       </div>

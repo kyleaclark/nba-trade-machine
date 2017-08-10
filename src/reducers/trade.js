@@ -19,6 +19,7 @@ function addTradeTeam(state, action) {
     roster: action.roster,
     capRoom: action.capRoom,
     taxRoom: action.taxRoom,
+    colors: action.colors,
     incomingTradeSalary: 0,
     inboundSalary: 0,
     outboundSalary: 0

@@ -90,6 +90,7 @@ class PlayerCards extends Component {
   render() {
     const { connectDropTarget, x, teamId, players, isOver, canDrop } = this.props;
     const { placeholderIndex } = this.state;
+    const playerPlaceholderClassName = 'player placeholder';
 
     let isPlaceHold = false;
     let playerList = [];
@@ -97,7 +98,7 @@ class PlayerCards extends Component {
       if (isOver && canDrop) {
         isPlaceHold = false;
         if (i === 0 && placeholderIndex === -1) {
-          playerList.push(<div key="placeholder" className="player placeholder" />);
+          playerList.push(<div key="placeholder" className={playerPlaceholderClassName} />);
         } else if (placeholderIndex > i) {
           isPlaceHold = true;
         }
@@ -112,18 +113,18 @@ class PlayerCards extends Component {
         );
       }
       if (isOver && canDrop && placeholderIndex === i) {
-        playerList.push(<div key="placeholder" className="player placeholder" />);
+        playerList.push(<div key="placeholder" className={playerPlaceholderClassName} />);
       }
     });
 
     // if placeholder index is greater than array.length, display placeholder as last
     if (isPlaceHold) {
-      playerList.push(<div key="placeholder" className="player placeholder" />);
+      playerList.push(<div key="placeholder" className={playerPlaceholderClassName} />);
     }
 
     // if there is no players in players currently, display a placeholder anyway
     if (isOver && canDrop && players.length === 0) {
-      playerList.push(<div key="placeholder" className="player placeholder" />);
+      playerList.push(<div key="placeholder" className={playerPlaceholderClassName} />);
     }
 
     return connectDropTarget(
