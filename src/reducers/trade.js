@@ -33,13 +33,11 @@ function addTradeTeam(state, action) {
       const roster = TeamRostersData[teamId];
       const teamInfo = TeamInfoData[teamId];
       nextTeams.pop()
-      console.log('nextTeams : ', nextTeams)
       action = {
         teamId,
         roster,
         ...teamInfo
       }
-      console.log('updated action : ', action)
     } else {
       action = null;
     }
@@ -101,19 +99,15 @@ function movePlayer(state, action) {
     nextTeams[lastX] = currentTeam;
     nextTeams[nextX] = futureTeam;
 
-    console.log('futureTeam : ', futureTeam.inboundSalary, futureTeam.capRoom)
-
     if (futureTeam.capRoom < 0) {
-      console.log('futureTeam : ', (futureTeam.inboundSalary * 1.5), futureTeam.outboundSalary)
       if (futureTeam.inboundSalary <= (futureTeam.outboundSalary * 1.5)) {
         tradeSuccess = true;
         tradeFailure = false;
       } else {
-        const salaryDiffPercentage = (futureTeam.inboundSalary / futureTeam.outboundSalary) * 100;
         tradeSuccess = false;
         tradeFailure = 'The ' + futureTeam.name + ' are the over cap and exceeding 150% exchanged salary in the trade';
       }
-    } else if (currentTeam.outboundSalary == 0 && futureTeam.outboundSalary == 0) {
+    } else if (currentTeam.outboundSalary === 0 && futureTeam.outboundSalary === 0) {
       tradeSuccess = false;
       tradeFailure = false;
     } else {

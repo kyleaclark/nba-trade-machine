@@ -24,7 +24,7 @@ export const BrooklynNets = {
   capRoom: 5336891,
   taxRoom: 25278707,
   colors: {
-    primary: '#061922'
+    primary: '#ffffff'
   }
 };
 
@@ -184,7 +184,7 @@ export const NewOrleansPelicans = {
   capRoom: -17813580,
   taxRoom: 2359420,
   colors: {
-    primary: '#002B5C'
+    primary: '#B4975A'
   }
 };
 
@@ -208,7 +208,7 @@ export const OklahomaCityThunder = {
   }
 };
 
-export const OrlandMagic = {
+export const OrlandoMagic = {
   name: 'Orlando Magic',
   conference: 'Eastern',
   capRoom: -762724,
@@ -234,7 +234,7 @@ export const PhoenixSuns = {
   capRoom: 6345125,
   taxRoom: 38418406,
   colors: {
-    primary: '#1D1160'
+    primary: '#E56020'
   }
 };
 
@@ -284,7 +284,7 @@ export const UtahJazz = {
   capRoom: -12358646,
   taxRoom: 7158567,
   colors: {
-    primary: '#002B5C'
+    primary: '#F9A01B'
   }
 };
 
@@ -294,6 +294,6 @@ export const WashingtonWizards = {
   capRoom: -26973216,
   taxRoom: -7117758,
   colors: {
-    primary: '#002B5C'
+    primary: '#E31837'
   }
 };
